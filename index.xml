@@ -33,6 +33,97 @@
     </item>
     
     <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;p&gt;Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files.&lt;/p&gt;
+&lt;h2 id=&#34;syntax-markdown&#34;&gt;Syntax Markdown&lt;/h2&gt;
+&lt;p&gt;Below are examples of using Markdown, but this is far from a complete guide. A full description of the language can be found on the official website. Characters that are usually treated as special in Markdown can be escaped using a backslash. For example, the sequence &amp;ldquo;*&amp;rdquo; will output the character &amp;ldquo;*&amp;rdquo;, and will not be a sign of the beginning of the selected text. In addition, Markdown does not convert text inside &amp;ldquo;raw&amp;rdquo; XHTML blocks. Thus, you can include XHTML sections in a Markdown document by enclosing them in block-level tags beforehand.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Text with emphasis or logical emphasis&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;* highlighting *&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;** strong highlighting **&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Program code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Code elements can be inside a line (inline) or multi-line blocks.&lt;/p&gt;
+&lt;p&gt;Inside the string, the code is highlighted with the symbol &amp;ldquo;`&amp;rdquo; (reverse apostrophe).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sample code inside the line (inline) &lt;code&gt;Hello world!&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A multiline block of code is indicated by an indent of 4 spaces or one Tab.&lt;/p&gt;
+&lt;p&gt;A multi-line block of code begins below&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;!-- Document title --&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;!-- Document body --&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The code block has ended&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Strikethrough text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;it is necessary to do ~~ one ~~ other thing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Lists&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;*&amp;rdquo; bulleted list item&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;-&amp;rdquo; another element of the unnumbered list&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;+&amp;rdquo; bullet elements can be different&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;1.&amp;rdquo; Numbered list item&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;2.&amp;rdquo; Item #2 of the same list&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;9.&amp;rdquo; Item #3 of the list — the items are numbered in order, the number at the beginning of the line does not matter&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Headlines&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Titles are created by placing a grid sign in front of the title text. The number of characters &amp;ldquo;#&amp;rdquo; corresponds to the level of the title. HTML provides 6 levels of headers.&lt;/p&gt;
+&lt;p&gt;/# The header of the first level&lt;/p&gt;
+&lt;p&gt;/### Third level header&lt;/p&gt;
+&lt;p&gt;/###### Sixth level header&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first two header levels also have an alternative syntax:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First level header:&lt;/p&gt;
+&lt;p&gt;/========================&lt;/p&gt;
+&lt;p&gt;Second level header:&lt;/p&gt;
+&lt;p&gt;/&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6. Links&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[Link text](&lt;a href=&#34;http://example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com&lt;/a&gt; / &amp;ldquo;Optional link header&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;an alternative way to set links if there are repetitions&lt;/p&gt;
+&lt;p&gt;Somewhere among the text there is [link text][example].&lt;/p&gt;
+&lt;p&gt;Also the link repeats [example address][example].&lt;/p&gt;
+&lt;p&gt;Link to [second][foo] also [Bar][] resources.&lt;/p&gt;
+&lt;p&gt;[example]: &lt;a href=&#34;http://example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com&lt;/a&gt; / &amp;ldquo;Optional link header&amp;rdquo;
+[foo]: &lt;a href=&#34;http://example.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.net&lt;/a&gt; / &amp;lsquo;Optional link header&amp;rsquo;
+[bar]: &lt;a href=&#34;http://example.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.edu&lt;/a&gt; / (Optional link header)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7. Images&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;![Alt-text](&lt;a href=&#34;http://example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com&lt;/a&gt; / &amp;ldquo;Image title&amp;rdquo;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/post/lastweek2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/lastweek2/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I went home from Monday to Wednesday, as there were holidays.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Friday, I spent the first two pairs at the computer, studying C++. From 15:00 to 19:20 I studied English&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples at a computer seminar. We have done laboratory work on Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday I had a full rest mentally and physically&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My last week</title>
       <link>https://example.com/post/lastweek-post/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
