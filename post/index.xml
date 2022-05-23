@@ -444,9 +444,9 @@ copyright: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#f
     
     <item>
       <title>My last week</title>
-      <link>https://example.com/post/lastweek-post/</link>
+      <link>https://example.com/post/lastweek1/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/lastweek-post/</guid>
+      <guid>https://example.com/post/lastweek1/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
 &lt;p&gt;How I spent last week:&lt;/p&gt;
 &lt;ol&gt;
