@@ -5,12 +5,72 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:01 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/post/lastweek4/</link>
+      <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/post/lastweek4/</guid>
+      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The days from Monday to Thursday were easy, as there were few pairs, but there were a lot of laboratory tests on the OS, so I started doing, I didn&amp;rsquo;t get lazy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Friday, I spent the first two pairs at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I went to IT classes on Saturday, did lab tests on Arduino. After that, I went to a running competition between Moscow universities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday I completely rested mentally and physically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific programming language</title>
+      <link>https://example.com/post/programming/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/programming/</guid>
+      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
+&lt;h2 id=&#34;scientific-programming-language&#34;&gt;Scientific programming language&lt;/h2&gt;
+&lt;p&gt;In computer programming, a scientific programming language can refer to two degrees of the same concept.&lt;/p&gt;
+&lt;p&gt;In a wide sense, a scientific programming language is a programming language that is used widely for computational science and computational mathematics. In this sense, C/C++ and Python can be considered scientific programming languages.&lt;/p&gt;
+&lt;p&gt;In a stronger sense, a scientific programming language is one that is designed and optimized for the use of mathematical formula and matrices. Such languages are characterized not only by the availability of libraries performing mathematical or scientific functions, but by the syntax of the language itself.[3] For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication etc); instead, this functionality is made available through standard libraries. Scientific programming languages in the stronger sense include ALGOL, APL, Fortran, J, Julia, Maple, MATLAB and R&lt;/p&gt;
+&lt;p&gt;Scientific programming languages should not be confused with scientific language in general, which refers loosely to the higher standards in precision, correctness and concision expected from practitioners of the scientific method.
+Contents&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Linear algebra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Scientific programming languages provide facilities to work with linear algebra. For example, the following Julia program solves a system of linear equations:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;A = rand(20, 20)  # A is a 20x20 matrix
+b = rand(20)      # b is a 20-element vector
+x = A\b           # x is the solution to A*x = b
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Working with large vectors and matrices is a key feature of these languages, as linear algebra lays the foundation to mathematical optimization, which in turn enables major applications such as deep learning.
+Mathematical optimization&lt;/p&gt;
+&lt;p&gt;In a scientific programming language, we can compute function optima with a syntax close to mathematical language. For instance, the following Julia code finds the minimum of the polynomial P(x,y) = x^2 − 3xy + 5y^2 − 7y + 3&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C++&#34; data-lang=&#34;C++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Optim&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;z&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;₀&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;mf&#34;&gt;0.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;     &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;starting&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;point&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;optimization&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;algorithm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;optimize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;z&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;z&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;z&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;₀&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Newton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;n&#34;&gt;autodiff&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;forward&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this example, Newton&amp;rsquo;s method for minimizing is used. Modern scientific programming languages will use automatic differentiation to compute the gradients and Hessians of the function given as input; cf. differentiable programming. Here, automatic forward differentiation has been chosen for that task. Older scientific programming languages such as the venerable Fortran would require the programmer to pass, next to the function to be optimized, a function that computes the gradient, and a function that computes the Hessian.&lt;/p&gt;
+&lt;p&gt;With more knowledge of the function to be minimized, more efficient algorithms can be used. For instance, convex optimization provides faster computations when the function is convex, quadratic programming provides faster computations when the function is at most quadratic in its variables, and linear programming when the function is at most linear.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My last week</title>
@@ -64,6 +124,30 @@
     </item>
     
     <item>
+      <title>My last week</title>
+      <link>https://example.com/post/lastweek2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/post/lastweek2/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I went home from Monday to Wednesday, as there were holidays.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Friday, I spent the first two pairs at the computer, studying C++. From 15:00 to 19:20 I studied English&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples at a computer seminar. We have done laboratory work on Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday I had a full rest mentally and physically&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://example.com/post/markdown/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
@@ -98,8 +182,8 @@ Now let&amp;rsquo;s take a closer look at the functions of the Markdown markup l
 &lt;li&gt;Additional elements&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;[Backslash](#Backslash Escapes);&lt;/li&gt;
-&lt;li&gt;[Automatic Links](#Automatic Links);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Backslash_Escapes&#34;&gt;Backslash&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Automatic_Links&#34;&gt;Automatic Links&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#SpecialSymbol&#34;&gt;HTML Special Characters&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For more information about the listed functions, see the section &amp;ldquo;Syntax Description&amp;rdquo;.&lt;/p&gt;
@@ -382,7 +466,7 @@ The code fragment of a string in the Markdown language looks like this:&lt;/p&gt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;An important feature is that Markdown does not allow you to set image dimensions (width, height).&lt;/p&gt;
 &lt;h2 id=&#34;additional-elements&#34;&gt;Additional elements&lt;/h2&gt;
-&lt;h5 id=&#34;a-namebackslash-escapesabackslash&#34;&gt;&lt;a name=&#34;Backslash Escapes&#34;&gt;&lt;/a&gt;	Backslash&lt;/h5&gt;
+&lt;h5 id=&#34;a-namebackslash_escapesa-backslash&#34;&gt;&lt;a name=&#34;Backslash_Escapes&#34;&gt;&lt;/a&gt; 	Backslash&lt;/h5&gt;
 &lt;p&gt;It can be used in Markdown before special characters so that they are perceived in their literal (and not official) meaning. The full list of these symbols is given below:&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;&amp;quot; - slash;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;`&amp;rdquo; - reverse apostrophe;&lt;/p&gt;
@@ -396,7 +480,7 @@ The code fragment of a string in the Markdown language looks like this:&lt;/p&gt
 &lt;p&gt;&amp;ldquo;-&amp;rdquo; - minus (hyphen);&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;.&amp;rdquo; – period;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;!&amp;rdquo; is an exclamation mark.&lt;/p&gt;
-&lt;h5 id=&#34;a-nameautomatic-linksa-automatic-links&#34;&gt;&lt;a name=&#34;Automatic Links&#34;&gt;&lt;/a&gt; Automatic links&lt;/h5&gt;
+&lt;h5 id=&#34;a-nameautomatic_linksa-automatic-links&#34;&gt;&lt;a name=&#34;Automatic_Links&#34;&gt;&lt;/a&gt; Automatic links&lt;/h5&gt;
 &lt;p&gt;Markdown supports a simplified procedure for automatically creating links for URLs and email addresses. To do this, just put the URL or postal address in angle brackets, and Markdown will make it a hyperlink. Unlike the styles described above, in this case the URL or postal address itself becomes the hyperlink text. Automatic links to email addresses work similarly.
 Automatic links in the Markdown language look like this&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;http://example.com/&amp;gt;
@@ -414,31 +498,7 @@ In order to use these characters in their literal sense, it is necessary to repl
 When using Markdown, you do not need to perform such actions. It allows you to use these characters in their original form. If the ampersand is used as part of the HTML special character, it will remain unchanged. Otherwise Markdown will convert it to &lt;code&gt;&amp;amp;amp;&lt;/code&gt;.
 &lt;br&gt;
 &amp;mdash;&amp;mdash;&amp;ndash;&lt;br&gt;
-copyright: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My last week</title>
-      <link>https://example.com/post/lastweek2/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/lastweek2/</guid>
-      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
-&lt;p&gt;How I spent last week:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;I went home from Monday to Wednesday, as there were holidays.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Friday, I spent the first two pairs at the computer, studying C++. From 15:00 to 19:20 I studied English&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples at a computer seminar. We have done laboratory work on Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday I had a full rest mentally and physically&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+source: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

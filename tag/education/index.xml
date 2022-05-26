@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education | Academic</title>
+    <link>https://example.com/tag/education/</link>
+      <atom:link href="https://example.com/tag/education/index.xml" rel="self" type="application/rss+xml" />
+    <description>Education</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Education</title>
+      <link>https://example.com/tag/education/</link>
+    </image>
+    
+    <item>
+      <title>Scientific programming language</title>
+      <link>https://example.com/post/programming/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/programming/</guid>
+      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
+&lt;h2 id=&#34;scientific-programming-language&#34;&gt;Scientific programming language&lt;/h2&gt;
+&lt;p&gt;In computer programming, a scientific programming language can refer to two degrees of the same concept.&lt;/p&gt;
+&lt;p&gt;In a wide sense, a scientific programming language is a programming language that is used widely for computational science and computational mathematics. In this sense, C/C++ and Python can be considered scientific programming languages.&lt;/p&gt;
+&lt;p&gt;In a stronger sense, a scientific programming language is one that is designed and optimized for the use of mathematical formula and matrices. Such languages are characterized not only by the availability of libraries performing mathematical or scientific functions, but by the syntax of the language itself.[3] For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication etc); instead, this functionality is made available through standard libraries. Scientific programming languages in the stronger sense include ALGOL, APL, Fortran, J, Julia, Maple, MATLAB and R&lt;/p&gt;
+&lt;p&gt;Scientific programming languages should not be confused with scientific language in general, which refers loosely to the higher standards in precision, correctness and concision expected from practitioners of the scientific method.
+Contents&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Linear algebra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Scientific programming languages provide facilities to work with linear algebra. For example, the following Julia program solves a system of linear equations:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;A = rand(20, 20)  # A is a 20x20 matrix
+b = rand(20)      # b is a 20-element vector
+x = A\b           # x is the solution to A*x = b
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Working with large vectors and matrices is a key feature of these languages, as linear algebra lays the foundation to mathematical optimization, which in turn enables major applications such as deep learning.
+Mathematical optimization&lt;/p&gt;
+&lt;p&gt;In a scientific programming language, we can compute function optima with a syntax close to mathematical language. For instance, the following Julia code finds the minimum of the polynomial P(x,y) = x^2 − 3xy + 5y^2 − 7y + 3&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C++&#34; data-lang=&#34;C++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Optim&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;z&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;₀&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;mf&#34;&gt;0.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;     &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;starting&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;point&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;optimization&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;algorithm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;optimize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;z&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;z&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;z&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;₀&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Newton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;n&#34;&gt;autodiff&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;forward&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this example, Newton&amp;rsquo;s method for minimizing is used. Modern scientific programming languages will use automatic differentiation to compute the gradients and Hessians of the function given as input; cf. differentiable programming. Here, automatic forward differentiation has been chosen for that task. Older scientific programming languages such as the venerable Fortran would require the programmer to pass, next to the function to be optimized, a function that computes the gradient, and a function that computes the Hessian.&lt;/p&gt;
+&lt;p&gt;With more knowledge of the function to be minimized, more efficient algorithms can be used. For instance, convex optimization provides faster computations when the function is convex, quadratic programming provides faster computations when the function is at most quadratic in its variables, and linear programming when the function is at most linear.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;p&gt;This document is intended to familiarize the user with the functionality of the Markdown markup language.
+Markdown is a lightweight markup language that is a tool for converting code to HTML.
+The main feature of this language is the simplest syntax, which serves to simplify writing and reading markup code, which, in turn, makes it easy to correct it.
+Now let&amp;rsquo;s take a closer look at the functions of the Markdown markup language.&lt;/p&gt;
+&lt;p&gt;Markdown is not a replacement for HTML. The Markdown syntax is quite limited, and corresponds to only a small subset of HTML elements. It includes the following elements:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Block elements&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Parag&#34;&gt;Paragraphs and Line Breaks&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Headers&#34;&gt;Headers&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Blockquotes&#34;&gt;Quotes&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Lists&#34;&gt;Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#CodeBlocks&#34;&gt;Code Blocks&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Lines&#34;&gt;Horizontal (dividing) lines&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Lowercase elements&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Links&#34;&gt;Links&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Emphasis&#34;&gt;Text Selection&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Code&#34;&gt;Code fragments of strings&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Images&#34;&gt;Images&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Additional elements&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Backslash_Escapes&#34;&gt;Backslash&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Automatic_Links&#34;&gt;Automatic Links&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SpecialSymbol&#34;&gt;HTML Special Characters&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more information about the listed functions, see the section &amp;ldquo;Syntax Description&amp;rdquo;.&lt;/p&gt;
+&lt;h1 id=&#34;syntax-description&#34;&gt;SYNTAX DESCRIPTION&lt;/h1&gt;
+&lt;h2 id=&#34;block-elements&#34;&gt;Block elements&lt;/h2&gt;
+&lt;h5 id=&#34;a-nameparaga-paragraphs-and-line-breaks&#34;&gt;&lt;a name=&#34;Parag&#34;&gt;&lt;/a&gt; Paragraphs and line breaks&lt;/h5&gt;
+&lt;p&gt;In order to create a paragraph using the syntax of the Markdown language, it is enough to separate the lines of text with one (or more) empty line (any line that contains nothing but spaces and tab characters is considered empty).
+In order to insert a visible line break (the &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; element), you must end the line with two spaces and press the &amp;ldquo;Enter&amp;rdquo; key.
+Many elements of the Markdown syntax look and work much better when they are formatted using &amp;ldquo;hard line translation&amp;rdquo; (line separation performed by the user himself, and not by the program automatically). Such elements include quotes, lists, etc.&lt;/p&gt;
+&lt;h5 id=&#34;a-nameheadersa-headings&#34;&gt;&lt;a name=&#34;Headers&#34;&gt;&lt;/a&gt; Headings&lt;/h5&gt;
+&lt;p&gt;The Markdown markup language supports 2 styles of heading designations: underlining and highlighting with a symbol (&amp;quot;#&amp;quot;).
+Headings are highlighted using underscores with equal signs (&amp;quot;=&amp;quot;) if the title is of the first level, and hyphens (&amp;quot;-&amp;quot;) if the title is of the second level. The number of underscores is not limited.
+When selecting headers using the symbol (&amp;quot;#&amp;quot;), from one to six of these characters are used, which are set at the beginning of the line (before the header). In this case, the number of characters corresponds to the header level. In addition, it is possible to provide the title with closing characters (&amp;quot;#&amp;quot;), although this is not mandatory. The number of closing characters does not have to match the number of initial characters. The level of the header is determined by the number of initial characters.&lt;br&gt;
+The headings of the first and second levels, made using underscores, look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;First level header
+========================
+Second level header
+-------------------------
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The headers of the first, third and sixth levels, made using the symbol (&amp;quot;#&amp;quot;), look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# The header of the first level
+### Third level header
+###### Sixth level header
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above headings made with the symbol (&amp;quot;#&amp;quot;) are identical to the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# First level header #
+### Third level header ###
+###### Sixth level header ######
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:&lt;/p&gt;
+&lt;h1 id=&#34;first-level-header&#34;&gt;First level header&lt;/h1&gt;
+&lt;h2 id=&#34;second-level-header&#34;&gt;Second level header&lt;/h2&gt;
+&lt;h1 id=&#34;first-level-header-1&#34;&gt;First level header&lt;/h1&gt;
+&lt;h3 id=&#34;third-level-header&#34;&gt;Third level header&lt;/h3&gt;
+&lt;h6 id=&#34;sixth-level-header&#34;&gt;Sixth level header&lt;/h6&gt;
+&lt;h5 id=&#34;a-nameblockquotesa-quotes&#34;&gt;&lt;a name=&#34;Blockquotes&#34;&gt;&lt;/a&gt; Quotes&lt;/h5&gt;
+&lt;p&gt;The Markdown language uses the &amp;ldquo;more&amp;rdquo; (&amp;quot;&amp;gt;&amp;quot;) sign to indicate quotations. It can be inserted both before each line of the quotation, and only before the first line of the paragraph.
+Also, the Markdown syntax allows you to create nested quotes (quotes inside quotes). Additional levels of citation marks (&amp;quot;&amp;gt;&amp;quot;) are used to mark them.
+Quotes in Markdown can contain all kinds of markup elements.
+Quotes in the Markdown language look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;This is an example quote,
+&amp;gt;in which
+&amp;gt;an angle bracket is placed before each line.
+
+&amp;gt;This is an example quote,
+in which the angle bracket
+it is put only before the beginning of a new paragraph.
+&amp;gt;The second paragraph.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Embedding a quote into a quote looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; First Citation level
+&amp;gt;&amp;gt; Second level of citation
+&amp;gt;&amp;gt;&amp;gt; Third level of citation
+&amp;gt;
+&amp;gt;First Citation level
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is an example quote,
+in which before each line
+an angle bracket is placed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is an example of a quote
+in which an angle bracket
+is placed just before the beginning of a new paragraph.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The second paragraph.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Enclosed quote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;First Citation level&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Second level of citation&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Third Citation Level&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First Citation Level&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The citation level cannot exceed the 15th.&lt;/p&gt;
+&lt;h5 id=&#34;a-namelistsa-lists&#34;&gt;&lt;a name=&#34;Lists&#34;&gt;&lt;/a&gt; Lists&lt;/h5&gt;
+&lt;p&gt;Markdown supports ordered (numbered) and unordered (unnumbered) lists.
+Markers such as asterisks, pluses and hyphens are used to form unordered lists. All the listed markers can be used interchangeably.
+To form ordered lists, numbers with a dot are used as markers. An important feature in this case is that the numbers themselves, with which the list is formed, are not important, since they do not affect the output HTML code. No matter how the user numbers the list, the output will in any case have an ordered list starting with one (1, 2, 3 &amp;hellip;). This feature should be taken into account when it is necessary to use the ordinal numbers of elements in the list so that they correspond to the numbers obtained in HTML.
+Ordered lists should always start with one. List markers usually start from the beginning of the line, however, they can be shifted, but not more than 3 spaces. The marker must be followed by a space or a tab character.
+If necessary, you can insert a quote into the list. In this case, the citation notation (&amp;quot;&amp;gt;&amp;quot; ) should be indented.
+The ordered lists look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. Explorer
+2. Semiconductor
+3. Dielectric
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The unordered lists look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* Explorer
+* Semiconductor
+* Dielectric
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Guide
+- Semiconductor
+- Dielectric
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;+ Explorer
++ Semiconductor
++ Dielectric
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output of all three listed options has the same result.
+As a result, the following is displayed on the screen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Explorer&lt;/li&gt;
+&lt;li&gt;Semiconductor&lt;/li&gt;
+&lt;li&gt;Dielectric&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;and&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explorer&lt;/li&gt;
+&lt;li&gt;Semiconductor&lt;/li&gt;
+&lt;li&gt;Dielectric&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The quote inserted into the list looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. A list item with a quote:
+
+&amp;gt; This is a quote
+&amp;gt; inside the list item.
+
+2. The second item of the list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;A list item with a quote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a quote
+inside the list item.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The second item of the list&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When inserting quotes into the list items, it is important to keep in mind that the list items must be on the same level, and quotes must be indented. If the rule with a single list level is not followed, the next item in the list after the quote will be automatically numbered with the digit &amp;ldquo;1.&amp;rdquo;
+In addition, if necessary, you can insert the source code into the list. In this case, it should be written with double indentation – 8 spaces or 2 tab characters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A list item containing the source code&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;source code &amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;a-namecodeblocksa-code-blocks&#34;&gt;&lt;a name=&#34;CodeBlocks&#34;&gt;&lt;/a&gt; Code blocks&lt;/h5&gt;
+&lt;p&gt;Formatted code blocks are used when it is necessary to quote the source code of programs or markup.
+To create a block of code in the Markdown language, it is necessary to start each line of a paragraph with an indent consisting of four spaces or one tab character. The code block continues until there is a line without indentation (or the end of the text). Inside the code block, ampersands (&amp;quot;&amp;amp;&amp;quot;) and angle brackets (&amp;quot;&amp;lt;&amp;quot; and &amp;ldquo;&amp;gt;&amp;rdquo;) are automatically converted into HTML markup elements. In addition, it should be noted that inside the code blocks, the usual Markdown syntax is not processed.
+The code block in Markdown looks like this:&lt;/p&gt;
+&lt;p&gt;This is a regular paragraph:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;This is a block of code
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;a-namelines-a-horizontal-lines-separators&#34;&gt;&lt;a name=&#34;Lines&#34;&gt; &lt;/a&gt; Horizontal lines (separators)&lt;/h5&gt;
+&lt;p&gt;In order to create a horizontal line using the Markdown syntax, you need to place three (or more)a hyphen or asterisk on a separate line of text. It is possible to place spaces between them.
+Horizontal lines in Markdown look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The first part of the text to be divided
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;pre&gt;&lt;code&gt;The second part of the text that needs to be divided
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The first part of the text to be divided
+
+---
+
+The second part of the text that needs to be divided
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:&lt;/p&gt;
+&lt;p&gt;The first part of the text to be divided&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The second part of the text that needs to be divided&lt;/p&gt;
+&lt;p&gt;When using this tool, it is important to remember that an empty line must be left after the first part of the text and before the second. This rule must be observed only when using hyphens. If it is not followed, the second-level header and a line of plain text will be displayed on the screen.  When using the asterisk symbol, this rule can be ignored.&lt;/p&gt;
+&lt;h2 id=&#34;lowercase-elements&#34;&gt;Lowercase elements&lt;/h2&gt;
+&lt;h5 id=&#34;a-namelinksa-links&#34;&gt;&lt;a name=&#34;Links&#34;&gt;&lt;/a&gt; Links&lt;/h5&gt;
+&lt;p&gt;Markdown supports two styles of link design:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hyperlink, with immediate indication of the address (in-text);&lt;/li&gt;
+&lt;li&gt;A hyperlink similar to a footnote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is assumed that in addition to the URL, there is also a link text. It is enclosed in square brackets.
+To create an in-text hyperlink, you must use parentheses immediately after the closing square one. You need to put a URL inside them. It is also possible to place the name enclosed in quotation marks in them, which will be displayed when hovering, but this item is not mandatory.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  [example](http://example.com / &amp;quot;Optional hint&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:
+[example](&lt;a href=&#34;http://example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com&lt;/a&gt; / &amp;ldquo;Optional hint&amp;rdquo;)
+When referring to a local directory, it is possible to use a relative path (from the current page, site, etc.)&lt;/p&gt;
+&lt;p&gt;When creating a passable hyperlink, a second pair of square brackets is used instead of the target address, inside which the label, the link identifier (id) is placed.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[example][id]:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Also, you can use a space to separate 2 pairs of square brackets:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[example] [id]: 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this case, it is possible to determine the identifier anywhere in the document.:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[id]: http://example.com / &amp;quot;Optional hint&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:
+[example] [id]
+[id]: &lt;a href=&#34;http://example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com&lt;/a&gt; / &amp;ldquo;Optional hint&amp;rdquo;
+In other words, it consists of the following elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Link ID surrounded by square brackets (which may be preceded by an optional indentation from one to three spaces);&lt;/li&gt;
+&lt;li&gt;Colon;&lt;/li&gt;
+&lt;li&gt;One or more spaces (or tab characters);&lt;/li&gt;
+&lt;li&gt;Hyperlink URL;&lt;/li&gt;
+&lt;li&gt;Optional title (a hint to the image that pops up when you hover over it) of the hyperlink, enclosed either in double or single quotes, or in parentheses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link identifiers can consist of letters, numbers, spaces, and punctuation marks, but they are not case sensitive. That is, these two options are equivalent:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[link text][a]
+[link text][A]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Markdown also allows you to use an implicitly expressed identifier (abbreviated). In this case, the label is not given, instead the hyperlink text is used as its name, and the second pair of square brackets remains empty.
+For example, to make the word &amp;ldquo;Example&amp;rdquo; a hyperlink leading to the site &lt;a href=&#34;http://example.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com/&lt;/a&gt;, it is enough to write:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[Example][]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and then define the hyperlink:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[Example]: http://example.com/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:
+[Example][]
+[Example]: &lt;a href=&#34;http://example.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;a-nameemphasisa-text-selection&#34;&gt;&lt;a name=&#34;Emphasis&#34;&gt;&lt;/a&gt; Text selection&lt;/h5&gt;
+&lt;p&gt;Markdown perceives asterisks &amp;ldquo;*&amp;rdquo; and underscores &amp;ldquo;_&amp;rdquo; as signs of semantic text selection:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Text surrounded by single &amp;ldquo;*&amp;rdquo; or &amp;ldquo;_&amp;rdquo; will be enclosed in the HTML tag &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Text surrounded by double &amp;ldquo;*&amp;rdquo; or &amp;ldquo;_&amp;rdquo; will be enclosed in the HTML tag &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other words, text surrounded by single characters is highlighted in italics, and text surrounded by double characters is highlighted in bold.
+Also, the selected fragment can be located in any part of the word.
+The text in italics using the Markdown syntax looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*Example*  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Example&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The text in bold using the Markdown syntax looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;**Example**
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The text in italics in bold using the Markdown syntax looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;***Example***
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;All the above examples are similar to the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;_example_
+
+__example__
+
+Re___distribution___division
+
+___example___  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;a-namecodeacode-fragments-of-strings&#34;&gt;&lt;a name=&#34;Code&#34;&gt;&lt;/a&gt;	Code fragments of strings&lt;/h5&gt;
+&lt;p&gt;To mark a line fragment containing the code, it is necessary to surround it with reverse apostrophes &amp;ldquo;`&amp;rdquo;.  When using code fragments of strings, the text will be displayed as a monospaced font.
+Unlike code blocks, a code fragment allows you to put the code inside a regular paragraph of text.
+The code fragment of a string in the Markdown language looks like this:&lt;/p&gt;
+&lt;p&gt;Use the &lt;code&gt;if&lt;/code&gt; operator&lt;/p&gt;
+&lt;h5 id=&#34;a-nameimagesaimages&#34;&gt;&lt;a name=&#34;Images&#34;&gt;&lt;/a&gt;	Images&lt;/h5&gt;
+&lt;p&gt;There are 2 ways to insert images into a document in Markdown:&lt;/p&gt;
+&lt;p&gt;a. By directly specifying the URL of the image. The syntax of this command is as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;![Alternative text](/path/to/image.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;![Alternative text](/path/to/image.jpg &amp;quot;Hint&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In other words, it consists of the following elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;exclamation mark;&lt;/li&gt;
+&lt;li&gt;square brackets, which indicate the text alternative to the image (it will become the content of the attribute in the img element);&lt;/li&gt;
+&lt;li&gt;parentheses containing the URL or relative path of the image, as well as (optionally) a tooltip enclosed in double or single quotes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;b. Using an identifier label.  The syntax of this command is written as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;![Alternative text][id]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;where &amp;ldquo;id&amp;rdquo; is the name of a specific image label. Image labels are defined using a syntax that is completely identical to hyperlink labels:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[id]: path/to/image &amp;quot;Optional hint&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An important feature is that Markdown does not allow you to set image dimensions (width, height).&lt;/p&gt;
+&lt;h2 id=&#34;additional-elements&#34;&gt;Additional elements&lt;/h2&gt;
+&lt;h5 id=&#34;a-namebackslash_escapesa-backslash&#34;&gt;&lt;a name=&#34;Backslash_Escapes&#34;&gt;&lt;/a&gt; 	Backslash&lt;/h5&gt;
+&lt;p&gt;It can be used in Markdown before special characters so that they are perceived in their literal (and not official) meaning. The full list of these symbols is given below:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;&amp;quot; - slash;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;`&amp;rdquo; - reverse apostrophe;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;*&amp;rdquo; - asterisk;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;_&amp;rdquo; - underscore character;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;{}&amp;rdquo; - curly brackets;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;[]&amp;rdquo; - square brackets;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;()&amp;rdquo; - parentheses;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;#&amp;rdquo; - grid symbol;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;+&amp;rdquo; - plus;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;-&amp;rdquo; - minus (hyphen);&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;.&amp;rdquo; – period;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;!&amp;rdquo; is an exclamation mark.&lt;/p&gt;
+&lt;h5 id=&#34;a-nameautomatic_linksa-automatic-links&#34;&gt;&lt;a name=&#34;Automatic_Links&#34;&gt;&lt;/a&gt; Automatic links&lt;/h5&gt;
+&lt;p&gt;Markdown supports a simplified procedure for automatically creating links for URLs and email addresses. To do this, just put the URL or postal address in angle brackets, and Markdown will make it a hyperlink. Unlike the styles described above, in this case the URL or postal address itself becomes the hyperlink text. Automatic links to email addresses work similarly.
+Automatic links in the Markdown language look like this&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;http://example.com/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:
+&lt;a href=&#34;http://example.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The automatic link to the email address in Markdown looks like this&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;address@example.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, the following is displayed on the screen:
+&lt;a href=&#34;mailto:address@example.com&#34;&gt;address@example.com&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;a-namespecialsymbola-html-special-characters&#34;&gt;&lt;a name=&#34;SpecialSymbol&#34;&gt;&lt;/a&gt; HTML special characters&lt;/h5&gt;
+&lt;p&gt;There are two characters in HTML that require special consideration: these are the characters (&amp;quot;&amp;lt;&amp;rdquo;) and (&amp;quot;&amp;amp;&amp;quot;). The left angle bracket is used as the beginning of the tag; ampersands are used to indicate a special HTML character.
+In order to use these characters in their literal sense, it is necessary to replace them with HTML elements, namely &lt;code&gt;&amp;amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;amp;amp;&lt;/code&gt; accordingly.
+When using Markdown, you do not need to perform such actions. It allows you to use these characters in their original form. If the ampersand is used as part of the HTML special character, it will remain unchanged. Otherwise Markdown will convert it to &lt;code&gt;&amp;amp;amp;&lt;/code&gt;.
+&lt;br&gt;
+&amp;mdash;&amp;mdash;&amp;ndash;&lt;br&gt;
+source: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Version control. Git.</title>
+      <link>https://example.com/post/git-post/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/git-post/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article:&lt;/h2&gt;
+&lt;h2 id=&#34;version-control&#34;&gt;Version control&lt;/h2&gt;
+&lt;p&gt;Version Control Systems (VCS) are used when several people work on one project. Usually, the main project tree is stored in a local or remote repository, to which access is configured for project participants. When making changes to the project content, the version control system allows you to fix them, combine changes made by different project participants, roll back to any earlier version of the project, if required.&lt;/p&gt;
+&lt;p&gt;In classical version control systems, a centralized model is used, assuming a single repository for storing files. Most version control functions are performed by a special server.
+The project participant (user) receives the version of files he needs before starting work through certain commands. After making changes, the user places the new version in the repository. At the same time, previous versions are not deleted from the central repository and you can return to them at any time. The server can not to save the full version of the modified files, but to perform a so—called delta compression - to save only changes between successive versions, which reduces the amount of data stored.&lt;/p&gt;
+&lt;p&gt;Version control systems support the ability to track and resolve conflicts that may arise when several people are working on a single file. You can merge (merge) changes made by different participants (automatically or manually), manually select the desired version, cancel the changes altogether or lock files for modification. Depending on the settings, the lock is not allows other users to get a working copy or prevents changing the working copy of the file by means of the OS file system, thus providing privileged access to only one user working with the file.&lt;/p&gt;
+&lt;p&gt;Version control systems can also provide additional, more flexible functionality. For example, they can support working with multiple versions of a single file, keeping a common history of changes up to the point of branching versions and their own change histories of each branch. In addition, it is usually available information about which of the participants, when and what changes were made. Usually this kind of information is stored in the change log, access to which can be restricted. Unlike the classical ones, in distributed version control systems, a central
+repository is not mandatory.&lt;/p&gt;
+&lt;p&gt;Among the classic VCS, the most famous are CVS, Subversion, and among the distributed ones — Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+in the syntax of the commands used in the work.&lt;/p&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&lt;/p&gt;
+&lt;p&gt;Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+The system is designed as a set of programs specially designed for their use in scenarios. This makes it convenient to create specialized version control systems based on Git or user interfaces. For example, Cogito is just such an example of a wrapper to Git repositories, and StGit uses Git to manage a collection of fixes (patches).&lt;/p&gt;
+&lt;p&gt;Git supports rapid separation and merging of versions, includes tools for visualization and navigation through the non-linear development history. Like Darcs, BitKeeper, Mercurial, Bazaar and Monotone, Git provides each developer with a local copy of the entire development history, changes are copied from one repository to another.&lt;/p&gt;
+&lt;p&gt;Remote access to Git repositories is provided by a git daemon, SSH or HTTP server. The git-daemon TCP service is included in the Git distribution and is, along with SSH, the most common and reliable access method. The HTTP access method, despite a number of restrictions, is very popular in controlled networks, because it allows you to use existing network filter configurations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
