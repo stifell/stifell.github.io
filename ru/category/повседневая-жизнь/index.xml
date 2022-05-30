@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Повседневая жизнь | Матюшкин Д.В.</title>
+    <link>https://example.com/ru/category/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</link>
+      <atom:link href="https://example.com/ru/category/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <description>Повседневая жизнь</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <title>Повседневая жизнь</title>
+      <link>https://example.com/ru/category/%D0%BF%D0%BE%D0%B2%D1%81%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</link>
+    </image>
+    
+    <item>
+      <title>Моя прошлая неделя</title>
+      <link>https://example.com/ru/post/lastweek5/</link>
+      <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/ru/post/lastweek5/</guid>
+      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Начало недели выдалось легким, поэтому в понедельник я занимался спортом и читал книгу.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Вторник и среда в целом ничем не отличались, разве что я начал делать лабораторные работы по операционным системам.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Пятница — тяжелый день. Первые две пары я провел за компьютером, изучая C++. C 15:00 до 19:20 учил английский язык.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В субботу с 12:00 до 14:50 по компьютерному практику были пары. Мы сделали лабораторную работу на Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В воскресенье полностью отдохнул морально и физически.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошлая неделя</title>
+      <link>https://example.com/ru/post/lastweek4/</link>
+      <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/ru/post/lastweek4/</guid>
+      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Дни с понедельника по четверг прошли легко, так как пар было мало, а вот лабораторных работ по ОС было много, поэтому начал делать, не поленился.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В пятницу я провел первые две пары за компьютером, изучая C++. С 15:00 до 19:20 я занимался английским языком.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В субботу я ходил на занятия по ИТ, делал лабораторные тесты на Arduino. После этого я поехал на соревнования по бегу среди московских вузов.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В воскресенье я полностью отдохнул морально и физически.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошлая неделя</title>
+      <link>https://example.com/ru/post/lastweek3/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/ru/post/lastweek3/</guid>
+      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Дни с понедельника по четверг были легкими, так как пар было немного.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В пятницу я провел первые две пары за компьютером, изучая C++. С 15:00 до 19:20 я занимался английским языком.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Я не ходил на пары в субботу. На стадионе РУДН прошли соревнования по бегу, там занял 2 место, поздравьте меня.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В воскресенье полностью отдохнул морально и физически.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошлая неделя</title>
+      <link>https://example.com/ru/post/lastweek2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/ru/post/lastweek2/</guid>
+      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Я ездил домой с понедельника по среду, так как были праздники.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В пятницу первые две пары я провел за компьютером, изучая C++. С 15:00 до 19:20 занимался английским.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В субботу с 12:00 до 14:50 были пары на компьютерном семинаре. Мы сделали лабораторную работу на Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В воскресенье я полностью отдохнул морально и физически.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошлая неделя</title>
+      <link>https://example.com/ru/post/lastweek1/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/ru/post/lastweek1/</guid>
+      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Начало недели выдалось легким, поэтому в понедельник я занимался спортом и читал книгу.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Вторник и среда в целом ничем не отличались, разве что я начал делать лабораторные работы по операционным системам.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В четверг я пошел в университет на первые две пары. Задавал интересующие вопросы по лабораторной.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Пятница — тяжелый день. Первые две пары я провел за компьютером, изучая C++. По плану должен быть английский с 15:00 до 19:20, но было только онлайн-мероприятие.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В субботу с 12:00 до 14:50 по компьютерному практику были пары. Мы сделали лабораторную работу на Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;В воскресенье полностью отдохнул морально и физически.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

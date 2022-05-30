@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life | Matyushkin D.V.</title>
+    <link>https://example.com/en/category/life/</link>
+      <atom:link href="https://example.com/en/category/life/index.xml" rel="self" type="application/rss+xml" />
+    <description>Life</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <title>Life</title>
+      <link>https://example.com/en/category/life/</link>
+    </image>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/en/post/lastweek5/</link>
+      <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/en/post/lastweek5/</guid>
+      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
+&lt;h2 id=&#34;how-i-spent-the-last-week&#34;&gt;How I spent the last week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The beginning of the week turned out to be easy, so on Monday I went in for sports and read a book.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tuesday and Wednesday were generally no different, except that I started doing labs on operating systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Friday is a hard day. I spent the first two classes at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Saturday from 12:00 to 14:50 there were couples for computer practice. We have done lab work on Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday, I completely rested mentally and physically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/en/post/lastweek4/</link>
+      <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/en/post/lastweek4/</guid>
+      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The days from Monday to Thursday were easy, as there were few pairs, but there were a lot of laboratory tests on the OS, so I started doing, I didn&amp;rsquo;t get lazy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Friday, I spent the first two pairs at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I went to IT classes on Saturday, did lab tests on Arduino. After that, I went to a running competition between Moscow universities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday I completely rested mentally and physically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/en/post/lastweek3/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/en/post/lastweek3/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The days from Monday to Thursday were easy, as there were not many couples.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Friday, I spent the first two pairs at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I didn&amp;rsquo;t go to couples on Saturday. There were running competitions at the RUDN Stadium. I took 2nd place, congratulate me.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday I completely rested mentally and physically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/en/post/lastweek2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://example.com/en/post/lastweek2/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I went home from Monday to Wednesday, as there were holidays.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Friday, I spent the first two pairs at the computer, studying C++. From 15:00 to 19:20 I studied English&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples at a computer seminar. We have done laboratory work on Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday I had a full rest mentally and physically&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/en/post/lastweek1/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/en/post/lastweek1/</guid>
+      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
+&lt;p&gt;How I spent last week:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The beginning of the week turned out to be easy, so on Monday I played sports and read a book.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tuesday and Wednesday were no different in general, except that I started doing laboratory work on operating systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Thursday I went to university for the first two pairs. Asked interesting questions about the laboratory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Friday is a hard day. I spent the first two pairs at the computer, studying C++. According to the plan, there should be English from 15:00 to 19:20, but there was only an online event.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples on a computer workshop. We did laboratory work on Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday, completely mentally and physically rested.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

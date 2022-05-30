@@ -1,0 +1,1771 @@
+<!DOCTYPE html><html lang="ru-ru" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Матюшкин Денис" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Статья о синтаксисе языка разметки markdown" />
+
+  
+    <link rel="alternate" hreflang="en" href="https://example.com/en/post/markdown/" />
+  
+  <link rel="alternate" hreflang="ru-ru" href="https://example.com/ru/post/markdown/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/ru/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://example.com/ru/post/markdown/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Матюшкин Д.В." />
+  <meta property="og:url" content="https://example.com/ru/post/markdown/" />
+  <meta property="og:title" content="Markdown | Матюшкин Д.В." />
+  <meta property="og:description" content="Статья о синтаксисе языка разметки markdown" /><meta property="og:image" content="https://example.com/ru/post/markdown/featured.jpg" />
+    <meta property="twitter:image" content="https://example.com/ru/post/markdown/featured.jpg" /><meta property="og:locale" content="ru-ru" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-14T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-14T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/ru/post/markdown/"
+  },
+  "headline": "Markdown",
+  
+  "image": [
+    "https://example.com/ru/post/markdown/featured.jpg"
+  ],
+  
+  "datePublished": "2022-05-14T00:00:00Z",
+  "dateModified": "2022-05-14T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Матюшкин Денис"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Матюшкин Д.В.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Статья о синтаксисе языка разметки markdown"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Markdown | Матюшкин Д.В.</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="bd238f54b82fdcd586f8f7e438599565" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Поиск ..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Поиск ...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/ru/">Матюшкин Д.В.</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключить навигацию">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/ru/">Матюшкин Д.В.</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#about"><span>Обо мне</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#posts"><span>Посты</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#projects"><span>Проекты</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#talks"><span>Мероприятия</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#featured"><span>Публикации</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#contact"><span>Контакты</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Поиск"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>Русский</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://example.com/en/post/markdown/">
+              <span>English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Markdown</h1>
+
+  
+  <p class="page-subtitle">Статья о синтаксисе языка разметки markdown</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Матюшкин Денис</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    мая 14, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 мин. для прочтения
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/ru/category/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/">Учеба</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 481px;">
+  <div style="position: relative">
+    <img src="/ru/post/markdown/featured_hu4a2939dec555ff5cfdce1ab2f29972ca_1409048_720x2500_fit_q75_h2_lanczos.webp" width="720" height="481" alt="" class="featured-image">
+    <span class="article-header-caption">Источник картинки: <a href="https://unsplash.com/photos/J5yoGZLdpSI" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="статья">Статья</h1>
+<p>Настоящий документ предназначен для ознакомления пользователя с функциональными возможностями языка разметки Markdown.
+Markdown – это облегченный язык разметки, который является инструментом преобразования кода в HTML.
+Главной особенностью данного языка является максимально простой синтаксис, который служит для упрощения написания и чтения кода разметки, что, в свою очередь, позволяет легко его корректировать.
+Теперь рассмотрим более подробно функции языка разметки Markdown.</p>
+<p>Markdown не является заменой HTML. Синтаксис Markdown достаточно ограничен, и соответствует лишь небольшому подмножеству элементов HTML. Он включает в себя следующие элементы:</p>
+<ol>
+<li>Блочные элементы</li>
+</ol>
+<ul>
+<li><a href="#Parag">Параграфы и разрывы строк</a>;</li>
+<li><a href="#Headers">Заголовки</a>;</li>
+<li><a href="#Blockquotes">Цитаты</a>;</li>
+<li><a href="#Lists">Списки</a></li>
+<li><a href="#CodeBlocks">Блоки кода</a>;</li>
+<li><a href="#Lines">Горизонтальные (разделительные) линии</a>.</li>
+</ul>
+<ol start="2">
+<li>Строчные элементы</li>
+</ol>
+<ul>
+<li><a href="#Links">Ссылки</a>;</li>
+<li><a href="#Emphasis">Выделение текста</a>;</li>
+<li><a href="#Code">Кодовые фрагменты строк</a>;</li>
+<li><a href="#Images">Изображения</a>.</li>
+</ul>
+<ol start="3">
+<li>Дополнительные элементы</li>
+</ol>
+<ul>
+<li><a href="#Backslash_Escapes">Обратный слеш</a>;</li>
+<li><a href="#Automatic_Links">Автоматические ссылки</a>;</li>
+<li><a href="#SpecialSymbol">Специальные символы HTML</a>.</li>
+</ul>
+<p>Более подробно с перечисленными функциями можно ознакомиться в разделе «Описание синтаксиса».</p>
+<h1 id="описание-синтаксиса">ОПИСАНИЕ СИНТАКСИСА</h1>
+<h2 id="блочные-элементы">Блочные элементы</h2>
+<h5 id="a-nameparagaпараграфы-и-разрывы-строк"><a name="Parag"></a>	Параграфы и разрывы строк</h5>
+<p>Для того, чтобы создать параграф с использованием синтаксиса языка Markdown, достаточно отделить строки текста одной (или более) пустой строкой (пустой считается всякая строка, которая не содержит в себе ничего, кроме пробелов и символов табуляции).
+Для того, чтобы вставить видимый перенос строки (элемент <code>&lt;br/&gt;</code>) необходимо окончить строку двумя пробелами и нажатием клавиши «Enter».
+Многие элементы синтаксиса Markdown выглядят и работают гораздо лучше в случае, когда их форматируют с помощью «жесткого перевода строк» (разделение строк, осуществленное самим пользователем, а не программой автоматически). К таким элементам относятся цитаты, списки и пр.</p>
+<h5 id="a-nameheadersa-заголовки"><a name="Headers"></a> Заголовки</h5>
+<p>Язык разметки Markdown поддерживает 2 стиля обозначения заголовков: подчеркивание и выделение символом («#»).
+Выделение заголовков с помощью подчеркивания производится знаками равенства («=») в случае, если заголовок первого уровня, и дефисами («-») в случае, если заголовок второго уровня. Количество знаков подчеркивания не ограничивается.
+При выделении заголовков с помощью символа («#») используется от одного до шести данных символов, которые устанавливаются в начале строки (перед заголовком). В данном случае количество символов соответствует уровню заголовка. Кроме того, заголовок возможно снабдить закрывающимися символами («#»), хотя это и не является обязательным. Количество закрывающихся символов не обязано соответствовать количеству начальных символов. Уровень заголовка определяется по количеству начальных символов.<br>
+Заголовки первого и второго уровней, выполненные с помощью подчеркивания, выглядят следующим образом:</p>
+<pre><code>Заголовок первого уровня
+========================
+Заголовок второго уровня
+-------------------------
+</code></pre>
+<p>Заголовки первого, третьего и шестого уровней, выполненные с помощью символа («#»), выглядят следующим образом:</p>
+<pre><code>#  Заголовок первого уровня
+### Заголовок третьего уровня
+###### Заголовок шестого уровня
+</code></pre>
+<p>Приведенные выше заголовки, выполненные с помощью символа («#») тождественны следующим:</p>
+<pre><code>#  Заголовок первого уровня #
+### Заголовок третьего уровня ###
+###### Заголовок шестого уровня ######
+</code></pre>
+<p>В результате на экран выводится следующее:</p>
+<h1 id="заголовок-первого-уровня">Заголовок первого уровня</h1>
+<h2 id="заголовок-второго-уровня">Заголовок второго уровня</h2>
+<h1 id="заголовок-первого-уровня-1">Заголовок первого уровня</h1>
+<h3 id="заголовок-третьего-уровня">Заголовок третьего уровня</h3>
+<h6 id="заголовок-шестого-уровня">Заголовок шестого уровня</h6>
+<h5 id="a-nameblockquotesa-цитаты"><a name="Blockquotes"></a> 	Цитаты</h5>
+<p>Для обозначения цитат в языке Markdown используется знак «больше» («&gt;»). Его можно вставлять как перед каждой строкой цитаты, так и только перед первой строкой параграфа.
+Также синтаксис Markdown позволяет создавать вложенные цитаты (цитаты внутри цитат). Для их разметки используются дополнительные уровни знаков цитирования («&gt;»).
+Цитаты в Markdown могут содержать всевозможные элементы разметки.
+Цитаты в языке Markdown выглядят следующим образом:</p>
+<pre><code>&gt;Это пример цитаты,
+&gt;в которой перед каждой строкой
+&gt;ставится угловая скобка.
+
+&gt;Это пример цитаты,
+в которой угловая скобка
+ставится только перед началом нового параграфа.
+&gt;Второй параграф.
+</code></pre>
+<p>Вложение цитаты в цитату выглядит следующим образом:</p>
+<pre><code>&gt; Первый уровень цитирования
+&gt;&gt; Второй уровень цитирования
+&gt;&gt;&gt; Третий уровень цитирования
+&gt;
+&gt;Первый уровень цитирования
+</code></pre>
+<p>В результате на экран выводится следующее:</p>
+<blockquote>
+<p>Это пример цитаты,
+в которой перед каждой строкой
+ставится угловая скобка.</p>
+</blockquote>
+<blockquote>
+<p>Это пример цитаты,
+в которой угловая скобка
+ставится только перед началом нового параграфа.</p>
+</blockquote>
+<blockquote>
+<p>Второй параграф.</p>
+</blockquote>
+<p>Вложенная цитата:</p>
+<blockquote>
+<p>Первый уровень цитирования</p>
+<blockquote>
+<p>Второй уровень цитирования</p>
+<blockquote>
+<p>Третий уровень цитирования</p>
+</blockquote>
+</blockquote>
+<p>Первый уровень цитирования</p>
+</blockquote>
+<p>Уровень цитирования не может превышать 15-й.</p>
+<h5 id="a-namelistsa-списки"><a name="Lists"></a> Списки</h5>
+<p>Markdown поддерживает упорядоченные (нумерованные) и неупорядоченные (ненумерованные) списки.
+Для формирования неупорядоченный списков используются такие маркеры, как звездочки, плюсы и дефисы. Все перечисленные маркеры могут использоваться взаимозаменяемо.
+Для формирования упорядоченных списков в качестве маркеров используются числа с точкой. Важной особенностью в данном случае является то, что сами номера, с помощью которых формируется список, не важны, так как они не оказывают влияния на выходной HTML код. Как бы ни нумеровал пользователь список, на выходе он в любом случае будет иметь упорядоченный список, начинающийся с единицы (1, 2, 3…). Эту особенность стоит учитывать в том случае, когда необходимо использовать порядковые номера элементов в списке, чтобы они соответствовали номерам, получающимся в HTML.
+Упорядоченные списки всегда следует начинать с единицы. Маркеры списков обычно начинаются с начала строки, однако они могут быть сдвинуты, но не более чем на 3 пробела. За маркером должен следовать пробел, либо символ табуляции.
+При  необходимости в список можно вставить цитату. В этом случае обозначения цитирования ( «&gt;» ) нужно писать с отступом.
+Упорядоченные списки выглядят следующим образом:</p>
+<pre><code>1.	Проводник
+2.	Полупроводник
+3.	Диэлектрик
+</code></pre>
+<p>Неупорядоченные списки выглядят следующим образом:</p>
+<pre><code>* Проводник
+* Полупроводник
+* Диэлектрик
+</code></pre>
+<p>Или</p>
+<pre><code>- Проводник
+- Полупроводник
+- Диэлектрик
+</code></pre>
+<p>Или</p>
+<pre><code>+ Проводник
++ Полупроводник
++ Диэлектрик
+</code></pre>
+<p>На выходе всех трех перечисленных вариантов имеется один и тот же результат.
+В результате на экран выводится следующее:</p>
+<ol>
+<li>Проводник</li>
+<li>Полупроводник</li>
+<li>Диэлектрик</li>
+</ol>
+<p>и</p>
+<ul>
+<li>Проводник</li>
+<li>Полупроводник</li>
+<li>Диэлектрик</li>
+</ul>
+<p>Цитата, вставленная в список, выглядит следующим образом:</p>
+<pre><code>1. Элемент списка с цитатой:
+
+    &gt; Это цитата
+    &gt; внутри элемента списка.
+
+ 2. Второй элемент списка
+</code></pre>
+<p>В результате на экран выводится следующее:</p>
+<ol>
+<li>
+<p>Элемент списка с цитатой:</p>
+<blockquote>
+<p>Это цитата
+внутри элемента списка.</p>
+</blockquote>
+</li>
+<li>
+<p>Второй элемент списка</p>
+</li>
+</ol>
+<p>При вставке цитат в элементы списка важно учитывать, что элементы списка должны находиться на одном уровне, а цитаты должны указываться с отступом. В случае, если правило с единым уровнем списка не соблюдается, следующий после цитаты элемент списка будет автоматически нумероваться цифрой «1.».
+Кроме того, при необходимости в список можно вставить исходный код. В этом случае его нужно писать с двойным отступом – 8 пробелов или 2 символа табуляции.</p>
+<ul>
+<li>
+<p>Элемент списка, содержащий исходный код</p>
+<pre><code> &lt;исходный код &gt;  
+</code></pre>
+</li>
+</ul>
+<h5 id="a-namecodeblocksa-блоки-кода"><a name="CodeBlocks"></a> Блоки кода</h5>
+<p>Отформатированные блоки кода используются в случае необходимости процитировать исходный код программ или разметки.
+Для создания блока кода в языке Markdown необходимо каждую строку параграфа начинать  с отступа, состоящего из четырех пробелов или  одного символа табуляции. Блок кода продолжается до тех пор, пока не встретится строка без отступа (или конец текста).  Внутри блока кода амперсанды («&amp;») и угловые скобки («&lt;» и «&gt;») автоматически преобразуются в элементы HTML разметки. Кроме того, следует отметить, что внутри блоков кода обычный синтаксис Markdown не обрабатывается.
+Блок кода в Markdown выглядит следующим образом:</p>
+<p>Это обычный параграф:</p>
+<pre><code>Это блок кода
+</code></pre>
+<h5 id="a-namelinesa-горизонтальные-линии-разделители"><a name="Lines">	</a> Горизонтальные линии (разделители)</h5>
+<p>Для того чтобы создать горизонтальную линию с использованием синтаксиса языка Markdown, необходимо поместить три (или более)дефиса или звездочки на отдельной строке текста. Между ними возможно располагать пробелы.
+Горизонтальные линии в Markdown выглядят следующим образом:</p>
+<pre><code>Первая часть текста, который необходимо разделить
+***
+Вторая часть текста, который необходимо разделить
+</code></pre>
+<p>Или</p>
+<pre><code>Первая часть текста, который необходимо разделить
+
+---
+
+Вторая часть текста, который необходимо разделить
+</code></pre>
+<p>В результате на экран выводится следующее:</p>
+<p>Первая часть текста, который необходимо разделить</p>
+<hr>
+<p>Вторая часть текста, который необходимо разделить</p>
+<p>При использовании данного инструмента важно помнить, что после первой части текста и перед второй необходимо оставлять пустую строку. Данное правило необходимо соблюдать только при использовании дефисов. Если его не соблюдать, на экран будет выведен заголовок второго уровня и строка обычного текста.  При использовании символа звездочки данным правилом можно пренебречь.</p>
+<h2 id="строчные-элементы">Строчные элементы</h2>
+<h5 id="a-namelinksa-ссылки"><a name="Links"></a> Ссылки</h5>
+<p>Markdown поддерживает два стиля оформления ссылок:</p>
+<ul>
+<li>Гиперссылка, с немедленным указанием адреса (внутритекстовая);</li>
+<li>Гиперссылка, подобная сноске.</li>
+</ul>
+<p>Подразумевается, что помимо URL-адреса существует еще текст ссылки. Он заключается в квадратные скобки.
+Для создания внутритекстовой гиперссылки необходимо использовать круглые скобки сразу после закрывающей квадратной. Внутри них необходимо поместить URL-адрес. В них же возможно расположить название, заключенное в кавычки, которое будет отображаться при наведении, но этот пункт не является обязательным.</p>
+<pre><code>  [пример](http://example.com/ &quot;Необязательная подсказка&quot;)
+</code></pre>
+<p>В результате на экран выводится следующее:
+<a href="http://example.com/" title="Необязательная подсказка" target="_blank" rel="noopener">пример</a>
+При ссылке на локальную директорию возможно использование относительного пути (от текущей страницы, сайта и т.п.)</p>
+<p>При создании сносной гиперссылки вместо целевого адреса используется вторая пара квадратных скобок, внутри которых помещается метка, идентификатор ссылки (id).</p>
+<pre><code>[пример][id]:
+</code></pre>
+<p>Также, можно использовать пробел, чтобы отделять 2 пары квадратных скобок:</p>
+<pre><code>[пример] [id]: 
+</code></pre>
+<p>В этом случае возможно определить идентификатор в любом месте документа:</p>
+<pre><code>[id]: http://example.com/ &quot;Необязательная подсказка&quot;
+</code></pre>
+<p>В результате на экран выводится следующее:
+[пример] [id]
+[id]: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a> &ldquo;Необязательная подсказка&rdquo;
+Иными словами, она состоит из следующих элементов:</p>
+<ul>
+<li>Идентификатор ссылки, окружённый квадратными скобками (которым может предшествовать необязательный отступ от одного до трёх пробелов);</li>
+<li>Двоеточие;</li>
+<li>Один или несколько пробелов (или символов табуляции);</li>
+<li>URL гиперссылки;</li>
+<li>Необязательный заголовок (подсказка к изображению, которая всплывает при наведении на него) гиперссылки, заключённый либо в двойные или одиночные кавычки, либо в скобки.</li>
+</ul>
+<p>Идентификаторы ссылок могут состоять из букв, цифр, пробелов и знаков пунктуации, однако они не чувствительны к регистру. То есть эти два варианта эквивалентны:</p>
+<pre><code>[текст ссылки][a]
+[текст ссылки][A]
+</code></pre>
+<p>Markdown позволяет также использовать неявно выраженный идентификатор (сокращенный). В этом случае метка не приводится, вместо неё текст гиперссылки используется  и в качестве её имени, а вторая пара квадратных скобок остаётся пустою.
+Например, чтобы сделать слово «Example» гиперссылкой, ведущей на сайт <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a>, достаточно написать:</p>
+<pre><code>[Example][]
+</code></pre>
+<p>и затем определить гиперссылку:</p>
+<pre><code>[Example]: http://example.com/
+</code></pre>
+<p>В результате на экран выводится следующее:
+[Example][]
+[Example]: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a></p>
+<h5 id="a-nameemphasisa-выделение-текста"><a name="Emphasis"></a> 	Выделение текста</h5>
+<p>Markdown воспринимает звёздочки «*» и символы подчёркивания «_» как признаки смыслового выделения текста:</p>
+<ul>
+<li>Текст, окружённый одиночными «*» или «_», будет заключен в HTML-тэг <code>&lt;em&gt;</code>.</li>
+<li>Текст, окружённый двойными «*» или «_», будет заключен в HTML-тэг <code>&lt;strong&gt;</code>.</li>
+</ul>
+<p>Иными словами, текст, окруженный одинарными символами, выделяется курсивным шрифтом, а текст, окруженный двойными символами, выделяется полужирным шрифтом.
+Также, выделенный фрагмент может находиться в любой части слова.
+Текст, выделенный курсивом с использованием синтаксиса языка Markdown, выглядит следующим образом:</p>
+<pre><code>*Пример*  
+</code></pre>
+<p><em>Пример</em></p>
+<p>Текст, выделенный полужирным шрифтом с использованием синтаксиса языка Markdown, выглядит следующим образом:</p>
+<pre><code>**Пример**
+</code></pre>
+<p><strong>Пример</strong></p>
+<p>Текст, выделенный курсивным полужирным шрифтом с использованием синтаксиса языка Markdown выглядит следующим образом:</p>
+<pre><code>***Пример***
+</code></pre>
+<p><em><strong>Пример</strong></em></p>
+<p>Все приведенные выше примеры аналогичны следующим:</p>
+<pre><code>_Пример_
+
+__Пример__
+
+Пере___распред___деление
+
+___Пример___  
+</code></pre>
+<h5 id="a-namecodeaкодовые-фрагменты-строк"><a name="Code"></a>	Кодовые фрагменты строк</h5>
+<p>Чтобы отметить фрагмент строки, содержащий код, необходимо окружить его обратными апострофами «`».  При использовании кодовых фрагментов строк текст будет отображаться в виде моноширинного шрифта.
+В отличие от блоков кода, кодовый фрагмент позволяет поместить код внутрь обычного абзаца текста.
+Кодовый фрагмент строки в языке Markdown выглядит следующим образом:</p>
+<p>Используйте оператор <code>if</code></p>
+<h5 id="a-nameimagesaизображения"><a name="Images"></a>	Изображения</h5>
+<p>В Markdown существует 2 способа вставки изображений в документ:</p>
+<p>a.	С помощью непосредственного указания URL-адреса изображения. Синтаксис данной команды выглядит следующим образом:</p>
+<pre><code>![Альтернативный текст](/путь/к/изображению.jpg)
+</code></pre>
+<p>или</p>
+<pre><code>![Альтернативный текст](/путь/к/изображению.jpg &quot;Подсказка&quot;)
+</code></pre>
+<p>Иными словами, он состоит из следующих элементов:</p>
+<ul>
+<li>восклицательный знак;</li>
+<li>квадратные скобки, в которых указывается альтернативный изображению текст (он станет содержимым атрибута в элементе img);</li>
+<li>круглые скобки, содержащие URL-адрес или относительный путь изображения, а также (необязательно) всплывающую подсказку, заключённуе в двойные или одиночные кавычки.</li>
+</ul>
+<p>b.	С помощью метки-идентификатора.  Синтаксис данной команды записывается следующим образом:</p>
+<pre><code>![Альтернативный текст][id]
+</code></pre>
+<p>где «id» — имя определённой метки изображения. Метки изображений определяются при помощи синтаксиса, совершенно идентичного меткам гиперссылок:</p>
+<pre><code>[id]: путь/к/изображению &quot;Необязательная подсказка&quot;
+</code></pre>
+<p>Важной особенностью является то, что Markdown не позволяет задать размеры изображения (ширину, высоту).</p>
+<h2 id="дополнительные-элементы">Дополнительные элементы</h2>
+<h5 id="a-namebackslash_escapesaобратный-слеш"><a name="Backslash_Escapes"></a>	Обратный слеш</h5>
+<p>Может употребляться в Markdown перед специальными символами для того, чтобы они воспринимались в их буквальном (а не служебном) значении. Полный список данных символов приводится ниже:</p>
+<p>«\»  - слеш;</p>
+<p>«`»  - обратный апостроф;</p>
+<p>«*»  - звездочка;</p>
+<p>«_»  - символ подчеркивания;</p>
+<p>«{}»  - фигурные скобки;</p>
+<p>«[]»  - квадратные скобки;</p>
+<p>«()»  - круглые скобки;</p>
+<p>«#»  - символ решетки;</p>
+<p>«+»  - плюс;</p>
+<p>«-»  - минус (дефис);</p>
+<p>«.»  – точка;</p>
+<p>«!»  - восклицательный знак.</p>
+<h5 id="a-nameautomatic_linksa-автоматические-ссылки"><a name="Automatic_Links"></a> Автоматические ссылки</h5>
+<p>Markdown поддерживает упрощённый порядок автоматического создания ссылок для URL-адресов и адресов электронной почты. Для этого достаточно поместить URL-адрес или почтовый адрес в угловые скобки, и Markdown сделает его гиперссылкой. В отличие от вышеописанных стилей, в данном случае сам же URL-адрес или почтовый адрес становится и текстом гиперссылки. Автоматические ссылки на адреса электронной почты работают аналогично.
+Автоматические ссылки в языке Markdown выглядят следующим образом</p>
+<pre><code>&lt;http://example.com/&gt;
+</code></pre>
+<p>В результате на экран выводится следующее:
+<a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a></p>
+<p>Автоматическая ссылка на адрес электронной почты в Markdown выглядит следующим образом</p>
+<pre><code>&lt;address@example.com&gt;
+</code></pre>
+<p>В результате на экран выводится следующее:
+<a href="mailto:address@example.com">address@example.com</a></p>
+<h5 id="a-namespecialsymbola-специальные-символы-html"><a name="SpecialSymbol"></a> Специальные символы HTML</h5>
+<p>В языке HTML существует два символа, требующих специального рассмотрения: это символы («&lt;») и («&amp;»). Левая угловая скобка используется как начало тэга; амперсанды применяются для обозначения специального символа HTML.
+Для того чтобы использовать эти символы в их буквальном смысле, необходимо заменить их элементами HTML, а именно <code>&amp;lt;</code> и <code>&amp;amp;</code> соответственно.
+При использовании Markdown подобных действий совершать не нужно. Он позволяет использовать эти символы в исходном виде. В случае если амперсанд используется как часть спецсимвола HTML, он останется неизменным. В противном случае Markdown преобразует его в <code>&amp;amp;</code>.
+<br>
+&mdash;&mdash;&ndash;<br>
+Источник: <a href="https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md" target="_blank" rel="noopener">https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md</a></p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/ru/tag/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/">Образование</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://example.com/ru/post/markdown/&amp;text=Markdown" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://example.com/ru/post/markdown/&amp;t=Markdown" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Markdown&amp;body=https://example.com/ru/post/markdown/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://example.com/ru/post/markdown/&amp;title=Markdown" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Markdown%20https://example.com/ru/post/markdown/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://example.com/ru/post/markdown/&amp;title=Markdown" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/ru/authors/admin/avatar_hu058119578876503177c6a94d7eff1fb4_394599_270x270_fill_q75_lanczos_center.jpg" alt="Матюшкин Денис"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://example.com/">Матюшкин Денис</a></h5>
+      <h6 class="card-subtitle">студент</h6>
+      <p class="card-text">Мои интересы включают программирование на разных языках, машинное обучение и изучение английского языка.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://vk.com/extra_858" target="_blank" rel="noopener">
+        <i class="fab fa-vk"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/stifell" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.elibrary.ru/project_user_office.asp" target="_blank" rel="noopener">
+        <i class="fab fa-erlang"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=mVXc5_EAAAAJ&amp;hl=ru" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-2698-1666" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.mendeley.com/settings/account/" target="_blank" rel="noopener">
+        <i class="fab fa-mendeley"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Denis-Matuskin" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://independent.academia.edu/DenisMatyushkin" target="_blank" rel="noopener">
+        <i class="ai ai-academia"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://arxiv.org/user/" target="_blank" rel="noopener">
+        <i class="ai ai-arxiv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/ru/js/wowchemy.min.2dc4ec27206b78f9d05ad86312c44710.js"></script>
+
+    
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Процитировать</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Копия
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Скачать
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>
