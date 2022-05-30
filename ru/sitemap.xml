@@ -244,6 +244,26 @@
       href="https://example.com/ru/slides/example/"
     /></url>
   <url>
+    <loc>https://example.com/ru/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/en/tag/deep-learning/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/tag/deep-learning/"
+    /></url>
+  <url>
+    <loc>https://example.com/ru/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/en/project/example/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/project/example/"
+    /></url>
+  <url>
     <loc>https://example.com/ru/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"

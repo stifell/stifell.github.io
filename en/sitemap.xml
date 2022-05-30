@@ -122,7 +122,15 @@
       href="https://example.com/en/post/lastweek4/"
     /></url>
   <url>
-    <loc>https://example.com/en/tag/deep-learning/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://example.com/en/tag/deep-learning/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/tag/deep-learning/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/en/tag/deep-learning/"
+    /></url>
   <url>
     <loc>https://example.com/en/project/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
@@ -244,6 +252,16 @@
       rel="alternate"
       hreflang="en"
       href="https://example.com/en/slides/example/"
+    /></url>
+  <url>
+    <loc>https://example.com/en/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/project/example/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/en/project/example/"
     /></url>
   <url>
     <loc>https://example.com/en/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
