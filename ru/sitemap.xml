@@ -4,16 +4,6 @@
   
   
   <url>
-    <loc>https://stifell.github.io/ru/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/talk/example-talk/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/talk/example-talk/"
-    /></url>
-  <url>
     <loc>https://stifell.github.io/ru/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -22,6 +12,16 @@
       rel="alternate"
       hreflang="ru"
       href="https://stifell.github.io/ru/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/ru/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/talk/example-talk/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/talk/example-talk/"
     /></url>
   <url>
     <loc>https://stifell.github.io/ru/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
