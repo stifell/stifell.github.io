@@ -4,16 +4,6 @@
   
   
   <url>
-    <loc>https://stifell.github.io/en/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/"
-    /></url>
-  <url>
     <loc>https://stifell.github.io/en/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -22,6 +12,16 @@
       rel="alternate"
       hreflang="en"
       href="https://stifell.github.io/en/talk/example-talk/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/en/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/"
     /></url>
   <url>
     <loc>https://stifell.github.io/en/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -34,7 +34,7 @@
       href="https://stifell.github.io/en/event/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
       href=""
@@ -44,9 +44,7 @@
       href=""
     /></url>
   <url>
-    <loc>https://stifell.github.io/en/category/academic/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://stifell.github.io/en/categories/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/categories/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
       href="https://stifell.github.io/ru/categories/"
@@ -56,49 +54,17 @@
       href="https://stifell.github.io/en/categories/"
     /></url>
   <url>
-    <loc>https://stifell.github.io/en/tag/education/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://stifell.github.io/en/post/hugo/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/post/hugo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/post/hugo/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://stifell.github.io/en/post/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/post/"
-    /></url>
-  <url>
-    <loc>https://stifell.github.io/en/tags/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/tags/"
-    /></url>
-  <url>
     <loc>https://stifell.github.io/en/category/life/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
   <url>
     <loc>https://stifell.github.io/en/post/lastweek5/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
@@ -111,6 +77,40 @@
     /></url>
   <url>
     <loc>https://stifell.github.io/en/tag/my-week/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/post/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/post/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/en/tags/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/tags/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/en/category/academic/</loc><lastmod>2022-05-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/tag/education/</loc><lastmod>2022-05-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/post/hugo/</loc><lastmod>2022-05-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/post/hugo/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/post/hugo/"
+    /></url>
   <url>
     <loc>https://stifell.github.io/en/post/lastweek4/</loc><lastmod>2022-05-26T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"

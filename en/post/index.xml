@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Academic</title>
+    <title>Posts | Matyushkin D.V.</title>
     <link>https://stifell.github.io/en/post/</link>
       <atom:link href="https://stifell.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:02 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
     <image>
       <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,9 +13,36 @@
     </image>
     
     <item>
+      <title>My last week</title>
+      <link>https://stifell.github.io/en/post/lastweek5/</link>
+      <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
+      <guid>https://stifell.github.io/en/post/lastweek5/</guid>
+      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
+&lt;h2 id=&#34;how-i-spent-the-last-week&#34;&gt;How I spent the last week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The beginning of the week turned out to be easy, so on Monday I went in for sports and read a book.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tuesday and Wednesday were generally no different, except that I started doing labs on operating systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Friday is a hard day. I spent the first two classes at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Saturday from 12:00 to 14:50 there were couples for computer practice. We have done lab work on Arduino.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On Sunday, I completely rested mentally and physically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hugo static site generator</title>
       <link>https://stifell.github.io/en/post/hugo/</link>
-      <pubDate>Mon, 30 May 2022 00:00:02 +0000</pubDate>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       <guid>https://stifell.github.io/en/post/hugo/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hugo is a static HTML and CSS website generator written in [Go][].
@@ -58,33 +85,6 @@ Building the binaries is an easy task for an experienced &lt;code&gt;go&lt;/code
 &lt;p&gt;The Hugo documentation now lives in its own repository, see &lt;a href=&#34;https://github.com/gohugoio/hugoDocs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gohugoio/hugoDocs&lt;/a&gt;. But we do keep a version of that documentation as a &lt;code&gt;git subtree&lt;/code&gt; in this repository. To build the sub folder &lt;code&gt;/docs&lt;/code&gt; as a Hugo site, you need to clone this repo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@github.com:gohugoio/hugo.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>My last week</title>
-      <link>https://stifell.github.io/en/post/lastweek5/</link>
-      <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/en/post/lastweek5/</guid>
-      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
-&lt;h2 id=&#34;how-i-spent-the-last-week&#34;&gt;How I spent the last week&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;The beginning of the week turned out to be easy, so on Monday I went in for sports and read a book.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tuesday and Wednesday were generally no different, except that I started doing labs on operating systems.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Friday is a hard day. I spent the first two classes at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Saturday from 12:00 to 14:50 there were couples for computer practice. We have done lab work on Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday, I completely rested mentally and physically.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
     </item>
     
     <item>

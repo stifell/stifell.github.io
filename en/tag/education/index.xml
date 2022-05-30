@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Education | Academic</title>
+    <title>Education | Matyushkin D.V.</title>
     <link>https://stifell.github.io/en/tag/education/</link>
       <atom:link href="https://stifell.github.io/en/tag/education/index.xml" rel="self" type="application/rss+xml" />
     <description>Education</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:02 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Education</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Hugo static site generator</title>
       <link>https://stifell.github.io/en/post/hugo/</link>
-      <pubDate>Mon, 30 May 2022 00:00:02 +0000</pubDate>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       <guid>https://stifell.github.io/en/post/hugo/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hugo is a static HTML and CSS website generator written in [Go][].
