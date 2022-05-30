@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic | Matyushkin D.V.</title>
-    <link>https://example.com/en/category/academic/</link>
-      <atom:link href="https://example.com/en/category/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/en/category/academic/</link>
+      <atom:link href="https://stifell.github.io/en/category/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:02 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>https://example.com/en/category/academic/</link>
+      <link>https://stifell.github.io/en/category/academic/</link>
     </image>
     
     <item>
       <title>Hugo static site generator</title>
-      <link>https://example.com/en/post/hugo/</link>
+      <link>https://stifell.github.io/en/post/hugo/</link>
       <pubDate>Mon, 30 May 2022 00:00:02 +0000</pubDate>
-      <guid>https://example.com/en/post/hugo/</guid>
+      <guid>https://stifell.github.io/en/post/hugo/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hugo is a static HTML and CSS website generator written in [Go][].
 It is optimized for speed, ease of use, and configurability.
@@ -62,9 +62,9 @@ Building the binaries is an easy task for an experienced &lt;code&gt;go&lt;/code
     
     <item>
       <title>Scientific programming language</title>
-      <link>https://example.com/en/post/programming/</link>
+      <link>https://stifell.github.io/en/post/programming/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/programming/</guid>
+      <guid>https://stifell.github.io/en/post/programming/</guid>
       <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
 &lt;h2 id=&#34;scientific-programming-language&#34;&gt;Scientific programming language&lt;/h2&gt;
 &lt;p&gt;In computer programming, a scientific programming language can refer to two degrees of the same concept.&lt;/p&gt;
@@ -98,9 +98,9 @@ Mathematical optimization&lt;/p&gt;
     
     <item>
       <title>Presentation</title>
-      <link>https://example.com/en/post/presentation/</link>
+      <link>https://stifell.github.io/en/post/presentation/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/presentation/</guid>
+      <guid>https://stifell.github.io/en/post/presentation/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article:&lt;/h2&gt;
 &lt;h2 id=&#34;important-rules-when-creating-a-presentation&#34;&gt;Important rules when creating a presentation&lt;/h2&gt;
 &lt;h3 id=&#34;rule-1--the-text-must-be-read&#34;&gt;Rule 1 — the text must be read&lt;/h3&gt;
@@ -125,9 +125,9 @@ Mathematical optimization&lt;/p&gt;
     
     <item>
       <title>Markdown</title>
-      <link>https://example.com/en/post/markdown/</link>
+      <link>https://stifell.github.io/en/post/markdown/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/markdown/</guid>
+      <guid>https://stifell.github.io/en/post/markdown/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
 &lt;p&gt;This document is intended to familiarize the user with the functionality of the Markdown markup language.
 Markdown is a lightweight markup language that is a tool for converting code to HTML.
@@ -480,9 +480,9 @@ source: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#file
     
     <item>
       <title>Version control. Git.</title>
-      <link>https://example.com/en/post/git-post/</link>
+      <link>https://stifell.github.io/en/post/git-post/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/git-post/</guid>
+      <guid>https://stifell.github.io/en/post/git-post/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article:&lt;/h2&gt;
 &lt;h2 id=&#34;version-control&#34;&gt;Version control&lt;/h2&gt;
 &lt;p&gt;Version Control Systems (VCS) are used when several people work on one project. Usually, the main project tree is stored in a local or remote repository, to which access is configured for project participants. When making changes to the project content, the version control system allows you to fix them, combine changes made by different project participants, roll back to any earlier version of the project, if required.&lt;/p&gt;

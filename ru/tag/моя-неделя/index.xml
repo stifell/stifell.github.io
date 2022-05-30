@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Моя неделя | Матюшкин Д.В.</title>
-    <link>https://example.com/ru/tag/%D0%BC%D0%BE%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
-      <atom:link href="https://example.com/ru/tag/%D0%BC%D0%BE%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/ru/tag/%D0%BC%D0%BE%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
+      <atom:link href="https://stifell.github.io/ru/tag/%D0%BC%D0%BE%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     <description>Моя неделя</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Моя неделя</title>
-      <link>https://example.com/ru/tag/%D0%BC%D0%BE%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
+      <link>https://stifell.github.io/ru/tag/%D0%BC%D0%BE%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
     </image>
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek5/</link>
+      <link>https://stifell.github.io/ru/post/lastweek5/</link>
       <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek5/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek5/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -40,9 +40,9 @@
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek4/</link>
+      <link>https://stifell.github.io/ru/post/lastweek4/</link>
       <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek4/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek4/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -63,9 +63,9 @@
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek3/</link>
+      <link>https://stifell.github.io/ru/post/lastweek3/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek3/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek3/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -86,9 +86,9 @@
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek2/</link>
+      <link>https://stifell.github.io/ru/post/lastweek2/</link>
       <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek2/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek2/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -109,9 +109,9 @@
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek1/</link>
+      <link>https://stifell.github.io/ru/post/lastweek1/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek1/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek1/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;

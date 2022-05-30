@@ -4,68 +4,34 @@
   
   
   <url>
-    <loc>https://example.com/en/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/talk/example-talk/"
+      href="https://stifell.github.io/ru/talk/example-talk/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/talk/example-talk/"
+      href="https://stifell.github.io/en/talk/example-talk/"
     /></url>
   <url>
-    <loc>https://example.com/en/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/"
+      href="https://stifell.github.io/ru/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/"
+      href="https://stifell.github.io/en/"
     /></url>
   <url>
-    <loc>https://example.com/en/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/event/"
+      href="https://stifell.github.io/ru/event/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/event/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://example.com/en/category/academic/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/en/categories/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/en/categories/"
-    /></url>
-  <url>
-    <loc>https://example.com/en/tag/education/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/en/post/hugo/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/post/hugo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/en/post/hugo/"
+      href="https://stifell.github.io/en/event/"
     /></url>
   <url>
     <loc></loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -78,230 +44,264 @@
       href=""
     /></url>
   <url>
-    <loc>https://example.com/en/post/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/category/academic/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/categories/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/"
+      href="https://stifell.github.io/ru/categories/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/"
+      href="https://stifell.github.io/en/categories/"
     /></url>
   <url>
-    <loc>https://example.com/en/tags/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/tag/education/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/post/hugo/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/tags/"
+      href="https://stifell.github.io/ru/post/hugo/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/tags/"
+      href="https://stifell.github.io/en/post/hugo/"
     /></url>
   <url>
-    <loc>https://example.com/en/category/life/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/en/post/lastweek5/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/lastweek5/"
+      href=""
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/lastweek5/"
+      href=""
     /></url>
   <url>
-    <loc>https://example.com/en/tag/my-week/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/en/post/lastweek4/</loc><lastmod>2022-05-26T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/lastweek4/"
+      href="https://stifell.github.io/ru/post/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/lastweek4/"
+      href="https://stifell.github.io/en/post/"
     /></url>
   <url>
-    <loc>https://example.com/en/tag/deep-learning/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/tags/</loc><lastmod>2022-05-30T00:00:02+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/tag/deep-learning/"
+      href="https://stifell.github.io/ru/tags/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/tag/deep-learning/"
+      href="https://stifell.github.io/en/tags/"
     /></url>
   <url>
-    <loc>https://example.com/en/project/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/category/life/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/post/lastweek5/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/project/"
+      href="https://stifell.github.io/ru/post/lastweek5/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/project/"
+      href="https://stifell.github.io/en/post/lastweek5/"
     /></url>
   <url>
-    <loc>https://example.com/en/category/python/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/tag/my-week/</loc><lastmod>2022-05-30T00:00:01+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/post/lastweek4/</loc><lastmod>2022-05-26T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/category/python/"
+      href="https://stifell.github.io/ru/post/lastweek4/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/category/python/"
+      href="https://stifell.github.io/en/post/lastweek4/"
     /></url>
   <url>
-    <loc>https://example.com/en/post/programming/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/tag/deep-learning/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/programming/"
+      href="https://stifell.github.io/ru/tag/deep-learning/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/programming/"
+      href="https://stifell.github.io/en/tag/deep-learning/"
     /></url>
   <url>
-    <loc>https://example.com/en/project/tgbot/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/project/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/project/tgbot/"
+      href="https://stifell.github.io/ru/project/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/project/tgbot/"
+      href="https://stifell.github.io/en/project/"
     /></url>
   <url>
-    <loc>https://example.com/en/tag/design/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/en/post/lastweek3/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/category/python/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/lastweek3/"
+      href="https://stifell.github.io/ru/category/python/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/lastweek3/"
+      href="https://stifell.github.io/en/category/python/"
     /></url>
   <url>
-    <loc>https://example.com/en/post/presentation/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/programming/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/presentation/"
+      href="https://stifell.github.io/ru/post/programming/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/presentation/"
+      href="https://stifell.github.io/en/post/programming/"
     /></url>
   <url>
-    <loc>https://example.com/en/post/lastweek2/</loc><lastmod>2022-05-14T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/project/tgbot/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/lastweek2/"
+      href="https://stifell.github.io/ru/project/tgbot/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/lastweek2/"
+      href="https://stifell.github.io/en/project/tgbot/"
     /></url>
   <url>
-    <loc>https://example.com/en/post/markdown/</loc><lastmod>2022-05-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/tag/design/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/en/post/lastweek3/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/markdown/"
+      href="https://stifell.github.io/ru/post/lastweek3/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/markdown/"
+      href="https://stifell.github.io/en/post/lastweek3/"
     /></url>
   <url>
-    <loc>https://example.com/en/post/lastweek1/</loc><lastmod>2022-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/presentation/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/lastweek1/"
+      href="https://stifell.github.io/ru/post/presentation/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/lastweek1/"
+      href="https://stifell.github.io/en/post/presentation/"
     /></url>
   <url>
-    <loc>https://example.com/en/post/git-post/</loc><lastmod>2022-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/lastweek2/</loc><lastmod>2022-05-14T00:00:01+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/post/git-post/"
+      href="https://stifell.github.io/ru/post/lastweek2/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/post/git-post/"
+      href="https://stifell.github.io/en/post/lastweek2/"
     /></url>
   <url>
-    <loc>https://example.com/en/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/markdown/</loc><lastmod>2022-05-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/slides/"
+      href="https://stifell.github.io/ru/post/markdown/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/slides/"
+      href="https://stifell.github.io/en/post/markdown/"
     /></url>
   <url>
-    <loc>https://example.com/en/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/lastweek1/</loc><lastmod>2022-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/slides/example/"
+      href="https://stifell.github.io/ru/post/lastweek1/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/slides/example/"
+      href="https://stifell.github.io/en/post/lastweek1/"
     /></url>
   <url>
-    <loc>https://example.com/en/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/post/git-post/</loc><lastmod>2022-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/project/example/"
+      href="https://stifell.github.io/ru/post/git-post/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/project/example/"
+      href="https://stifell.github.io/en/post/git-post/"
     /></url>
   <url>
-    <loc>https://example.com/en/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication-type/1/"
+      href="https://stifell.github.io/ru/slides/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/publication-type/1/"
+      href="https://stifell.github.io/en/slides/"
     /></url>
   <url>
-    <loc>https://example.com/en/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication/example/"
+      href="https://stifell.github.io/ru/slides/example/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/publication/example/"
+      href="https://stifell.github.io/en/slides/example/"
     /></url>
   <url>
-    <loc>https://example.com/en/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication_types/"
+      href="https://stifell.github.io/ru/project/example/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/publication_types/"
+      href="https://stifell.github.io/en/project/example/"
     /></url>
   <url>
-    <loc>https://example.com/en/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://stifell.github.io/en/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://example.com/ru/publication/"
+      href="https://stifell.github.io/ru/publication-type/1/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://example.com/en/publication/"
+      href="https://stifell.github.io/en/publication-type/1/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/en/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/publication/example/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/publication/example/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/en/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/publication_types/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/publication_types/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/en/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/publication/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/publication/"
     /></url>
   <url>
     <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link

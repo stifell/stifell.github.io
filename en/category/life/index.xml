@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life | Matyushkin D.V.</title>
-    <link>https://example.com/en/category/life/</link>
-      <atom:link href="https://example.com/en/category/life/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/en/category/life/</link>
+      <atom:link href="https://stifell.github.io/en/category/life/index.xml" rel="self" type="application/rss+xml" />
     <description>Life</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Life</title>
-      <link>https://example.com/en/category/life/</link>
+      <link>https://stifell.github.io/en/category/life/</link>
     </image>
     
     <item>
       <title>My last week</title>
-      <link>https://example.com/en/post/lastweek5/</link>
+      <link>https://stifell.github.io/en/post/lastweek5/</link>
       <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/en/post/lastweek5/</guid>
+      <guid>https://stifell.github.io/en/post/lastweek5/</guid>
       <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
 &lt;h2 id=&#34;how-i-spent-the-last-week&#34;&gt;How I spent the last week&lt;/h2&gt;
 &lt;ol&gt;
@@ -41,9 +41,9 @@
     
     <item>
       <title>My last week</title>
-      <link>https://example.com/en/post/lastweek4/</link>
+      <link>https://stifell.github.io/en/post/lastweek4/</link>
       <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/en/post/lastweek4/</guid>
+      <guid>https://stifell.github.io/en/post/lastweek4/</guid>
       <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
 &lt;p&gt;How I spent last week:&lt;/p&gt;
 &lt;ol&gt;
@@ -65,9 +65,9 @@
     
     <item>
       <title>My last week</title>
-      <link>https://example.com/en/post/lastweek3/</link>
+      <link>https://stifell.github.io/en/post/lastweek3/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/lastweek3/</guid>
+      <guid>https://stifell.github.io/en/post/lastweek3/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
 &lt;p&gt;How I spent last week:&lt;/p&gt;
 &lt;ol&gt;
@@ -89,9 +89,9 @@
     
     <item>
       <title>My last week</title>
-      <link>https://example.com/en/post/lastweek2/</link>
+      <link>https://stifell.github.io/en/post/lastweek2/</link>
       <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/en/post/lastweek2/</guid>
+      <guid>https://stifell.github.io/en/post/lastweek2/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
 &lt;p&gt;How I spent last week:&lt;/p&gt;
 &lt;ol&gt;
@@ -113,9 +113,9 @@
     
     <item>
       <title>My last week</title>
-      <link>https://example.com/en/post/lastweek1/</link>
+      <link>https://stifell.github.io/en/post/lastweek1/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/lastweek1/</guid>
+      <guid>https://stifell.github.io/en/post/lastweek1/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
 &lt;p&gt;How I spent last week:&lt;/p&gt;
 &lt;ol&gt;

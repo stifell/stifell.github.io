@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning | Matyushkin D.V.</title>
-    <link>https://example.com/en/tag/deep-learning/</link>
-      <atom:link href="https://example.com/en/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/en/tag/deep-learning/</link>
+      <atom:link href="https://stifell.github.io/en/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
-      <link>https://example.com/en/tag/deep-learning/</link>
+      <link>https://stifell.github.io/en/tag/deep-learning/</link>
     </image>
     
     <item>
       <title>Telegram bot python</title>
-      <link>https://example.com/en/project/tgbot/</link>
+      <link>https://stifell.github.io/en/project/tgbot/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/project/tgbot/</guid>
+      <guid>https://stifell.github.io/en/project/tgbot/</guid>
       <description>&lt;h1 id=&#34;part-1-registering-a-bot&#34;&gt;Part 1: Registering a bot&lt;/h1&gt;
 &lt;p&gt;The simplest and most described part. Very briefly: you need to find the bot &lt;a href=&#34;https://telegram.me/BotFather&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@BotFather&lt;/a&gt;, write to him /start, or / newbot, fill in the fields that he asks (the name of the bot and its short name), and get a message with the bot token and a link to the documentation. The token must be saved, preferably securely, since this is the only key for authorization of the bot and interaction with it.&lt;/p&gt;
 &lt;h1 id=&#34;part-2-preparing-to-write-code&#34;&gt;Part 2: Preparing to write code&lt;/h1&gt;
@@ -76,7 +76,7 @@
                /en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp 400w,
                /en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_a695a0b20d54c3d80467e0b4d4fe5b93.webp 760w,
                /en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp&#34;
+               src=&#34;https://stifell.github.io/en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp&#34;
                width=&#34;705&#34;
                height=&#34;552&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,7 +164,7 @@
                /en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp 400w,
                /en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_048f0962a83e2e4c6d5bf9a61404bbe9.webp 760w,
                /en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp&#34;
+               src=&#34;https://stifell.github.io/en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp&#34;
                width=&#34;677&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -178,9 +178,9 @@ source: https://habr.com/ru/post/442800/
     
     <item>
       <title>Example Project</title>
-      <link>https://example.com/en/project/example/</link>
+      <link>https://stifell.github.io/en/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/project/example/</guid>
+      <guid>https://stifell.github.io/en/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;

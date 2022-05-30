@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Глубокое обучение | Матюшкин Д.В.</title>
-    <link>https://example.com/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</link>
-      <atom:link href="https://example.com/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <atom:link href="https://stifell.github.io/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
     <description>Глубокое обучение</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Глубокое обучение</title>
-      <link>https://example.com/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <link>https://stifell.github.io/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</link>
     </image>
     
     <item>
       <title>Телеграм бот на Python</title>
-      <link>https://example.com/ru/project/tgbot/</link>
+      <link>https://stifell.github.io/ru/project/tgbot/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/project/tgbot/</guid>
+      <guid>https://stifell.github.io/ru/project/tgbot/</guid>
       <description>&lt;h1 id=&#34;часть-1-регистрация-бота&#34;&gt;Часть 1: Регистрация бота&lt;/h1&gt;
 &lt;p&gt;Самая простая и описанная часть. Очень коротко: нужно найти бота &lt;a href=&#34;https://telegram.me/BotFather&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@BotFather&lt;/a&gt;, написать ему /start, или /newbot, заполнить поля, которые он спросит (название бота и его короткое имя), и получить сообщение с токеном бота и ссылкой на документацию. Токен нужно сохранить, желательно надёжно, так как это единственный ключ для авторизации бота и взаимодействия с ним.&lt;/p&gt;
 &lt;h1 id=&#34;часть-2-подготовка-к-написанию-кода&#34;&gt;Часть 2: Подготовка к написанию кода&lt;/h1&gt;
@@ -76,7 +76,7 @@
                /ru/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp 400w,
                /ru/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_a695a0b20d54c3d80467e0b4d4fe5b93.webp 760w,
                /ru/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/ru/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp&#34;
+               src=&#34;https://stifell.github.io/ru/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp&#34;
                width=&#34;705&#34;
                height=&#34;552&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,7 +164,7 @@
                /ru/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp 400w,
                /ru/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_048f0962a83e2e4c6d5bf9a61404bbe9.webp 760w,
                /ru/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/ru/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp&#34;
+               src=&#34;https://stifell.github.io/ru/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp&#34;
                width=&#34;677&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

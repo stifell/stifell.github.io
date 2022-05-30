@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Matyushkin D.V.</title>
-    <link>https://example.com/en/category/python/</link>
-      <atom:link href="https://example.com/en/category/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/en/category/python/</link>
+      <atom:link href="https://stifell.github.io/en/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
-      <link>https://example.com/en/category/python/</link>
+      <link>https://stifell.github.io/en/category/python/</link>
     </image>
     
     <item>
       <title>Telegram bot python</title>
-      <link>https://example.com/en/project/tgbot/</link>
+      <link>https://stifell.github.io/en/project/tgbot/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/project/tgbot/</guid>
+      <guid>https://stifell.github.io/en/project/tgbot/</guid>
       <description>&lt;h1 id=&#34;part-1-registering-a-bot&#34;&gt;Part 1: Registering a bot&lt;/h1&gt;
 &lt;p&gt;The simplest and most described part. Very briefly: you need to find the bot &lt;a href=&#34;https://telegram.me/BotFather&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@BotFather&lt;/a&gt;, write to him /start, or / newbot, fill in the fields that he asks (the name of the bot and its short name), and get a message with the bot token and a link to the documentation. The token must be saved, preferably securely, since this is the only key for authorization of the bot and interaction with it.&lt;/p&gt;
 &lt;h1 id=&#34;part-2-preparing-to-write-code&#34;&gt;Part 2: Preparing to write code&lt;/h1&gt;
@@ -76,7 +76,7 @@
                /en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp 400w,
                /en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_a695a0b20d54c3d80467e0b4d4fe5b93.webp 760w,
                /en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp&#34;
+               src=&#34;https://stifell.github.io/en/project/tgbot/1_hu7ee5a02f071d1ab48ab532cdfb007977_81868_dfa19774ec7a1b86ed93fab276e23341.webp&#34;
                width=&#34;705&#34;
                height=&#34;552&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,7 +164,7 @@
                /en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp 400w,
                /en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_048f0962a83e2e4c6d5bf9a61404bbe9.webp 760w,
                /en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp&#34;
+               src=&#34;https://stifell.github.io/en/project/tgbot/2_huc53857810ca28cbb662fa4bdb158c8f3_116140_e860f107a3f5e3bc23da110afe49e6a9.webp&#34;
                width=&#34;677&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

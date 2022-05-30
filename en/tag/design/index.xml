@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design | Matyushkin D.V.</title>
-    <link>https://example.com/en/tag/design/</link>
-      <atom:link href="https://example.com/en/tag/design/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/en/tag/design/</link>
+      <atom:link href="https://stifell.github.io/en/tag/design/index.xml" rel="self" type="application/rss+xml" />
     <description>Design</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Design</title>
-      <link>https://example.com/en/tag/design/</link>
+      <link>https://stifell.github.io/en/tag/design/</link>
     </image>
     
     <item>
       <title>Presentation</title>
-      <link>https://example.com/en/post/presentation/</link>
+      <link>https://stifell.github.io/en/post/presentation/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/en/post/presentation/</guid>
+      <guid>https://stifell.github.io/en/post/presentation/</guid>
       <description>&lt;h2 id=&#34;article&#34;&gt;Article:&lt;/h2&gt;
 &lt;h2 id=&#34;important-rules-when-creating-a-presentation&#34;&gt;Important rules when creating a presentation&lt;/h2&gt;
 &lt;h3 id=&#34;rule-1--the-text-must-be-read&#34;&gt;Rule 1 — the text must be read&lt;/h3&gt;

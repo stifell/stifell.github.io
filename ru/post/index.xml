@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Посты | Матюшкин Д.В.</title>
-    <link>https://example.com/ru/post/</link>
-      <atom:link href="https://example.com/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://stifell.github.io/ru/post/</link>
+      <atom:link href="https://stifell.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Посты</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 30 May 2022 00:00:02 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
       <title>Посты</title>
-      <link>https://example.com/ru/post/</link>
+      <link>https://stifell.github.io/ru/post/</link>
     </image>
     
     <item>
       <title>Статический генератор сайтов hugo</title>
-      <link>https://example.com/ru/post/hugo/</link>
+      <link>https://stifell.github.io/ru/post/hugo/</link>
       <pubDate>Mon, 30 May 2022 00:00:02 +0000</pubDate>
-      <guid>https://example.com/ru/post/hugo/</guid>
+      <guid>https://stifell.github.io/ru/post/hugo/</guid>
       <description>&lt;h2 id=&#34;обзор&#34;&gt;Обзор&lt;/h2&gt;
 &lt;p&gt;Hugo - это статический генератор веб-сайтов HTML и CSS, написанный на Go.
 Он оптимизирован для обеспечения скорости, простоты использования и возможности настройки.
@@ -62,9 +62,9 @@
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek5/</link>
+      <link>https://stifell.github.io/ru/post/lastweek5/</link>
       <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek5/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek5/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -88,9 +88,9 @@
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek4/</link>
+      <link>https://stifell.github.io/ru/post/lastweek4/</link>
       <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek4/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek4/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -111,9 +111,9 @@
     
     <item>
       <title>Языки научного программирования</title>
-      <link>https://example.com/ru/post/programming/</link>
+      <link>https://stifell.github.io/ru/post/programming/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/programming/</guid>
+      <guid>https://stifell.github.io/ru/post/programming/</guid>
       <description>&lt;h1 id=&#34;статья&#34;&gt;Статья&lt;/h1&gt;
 &lt;h2 id=&#34;научные-языки-программирования&#34;&gt;Научные языки программирования&lt;/h2&gt;
 &lt;p&gt;В компьютерном программировании научный язык программирования может относиться к двум степеням одной и той же концепции.&lt;/p&gt;
@@ -146,9 +146,9 @@ P(x,y) = x^2 - 3xy + 5y^2 - 7y + 3&lt;/p&gt;
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek3/</link>
+      <link>https://stifell.github.io/ru/post/lastweek3/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek3/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek3/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -169,9 +169,9 @@ P(x,y) = x^2 - 3xy + 5y^2 - 7y + 3&lt;/p&gt;
     
     <item>
       <title>Презентация</title>
-      <link>https://example.com/ru/post/presentation/</link>
+      <link>https://stifell.github.io/ru/post/presentation/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/presentation/</guid>
+      <guid>https://stifell.github.io/ru/post/presentation/</guid>
       <description>&lt;h1 id=&#34;важные-правила-при-создании-презентации&#34;&gt;Важные правила при создании презентации&lt;/h1&gt;
 &lt;h3 id=&#34;правило-1--текст-должен-читаться&#34;&gt;Правило 1 — текст должен читаться&lt;/h3&gt;
 &lt;p&gt;Понятие читабельности простым языком означает возможность текста быть легким для прочтения. Например, если поставить белый текст на черный фон, то пункт с читабельностью будет выполнен на 100%.&lt;/p&gt;
@@ -195,9 +195,9 @@ P(x,y) = x^2 - 3xy + 5y^2 - 7y + 3&lt;/p&gt;
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek2/</link>
+      <link>https://stifell.github.io/ru/post/lastweek2/</link>
       <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek2/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek2/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -218,9 +218,9 @@ P(x,y) = x^2 - 3xy + 5y^2 - 7y + 3&lt;/p&gt;
     
     <item>
       <title>Markdown</title>
-      <link>https://example.com/ru/post/markdown/</link>
+      <link>https://stifell.github.io/ru/post/markdown/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/markdown/</guid>
+      <guid>https://stifell.github.io/ru/post/markdown/</guid>
       <description>&lt;h1 id=&#34;статья&#34;&gt;Статья&lt;/h1&gt;
 &lt;p&gt;Настоящий документ предназначен для ознакомления пользователя с функциональными возможностями языка разметки Markdown.
 Markdown – это облегченный язык разметки, который является инструментом преобразования кода в HTML.
@@ -572,9 +572,9 @@ ___Пример___
     
     <item>
       <title>Моя прошлая неделя</title>
-      <link>https://example.com/ru/post/lastweek1/</link>
+      <link>https://stifell.github.io/ru/post/lastweek1/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/lastweek1/</guid>
+      <guid>https://stifell.github.io/ru/post/lastweek1/</guid>
       <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -601,9 +601,9 @@ ___Пример___
     
     <item>
       <title>Управление версиями. Git</title>
-      <link>https://example.com/ru/post/git-post/</link>
+      <link>https://stifell.github.io/ru/post/git-post/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/git-post/</guid>
+      <guid>https://stifell.github.io/ru/post/git-post/</guid>
       <description>&lt;h1 id=&#34;управление-версиями&#34;&gt;Управление версиями&lt;/h1&gt;
 &lt;p&gt;Системы контроля версий (Version Control System, VCS) применяются при работе несколь- ких человек над одним проектом. Обычно основное дерево проекта хранится в локальном или удалённом репозитории, к которому настроен доступ для участников проекта. При внесении изменений в содержание проекта система контроля версий позволяет их фиксировать, совмещать изменения, произведённые разными участниками проекта, производить откат к любой более ранней версии проекта, если это требуется.&lt;/p&gt;
 &lt;p&gt;В классических системах контроля версий используется централизованная модель, предполагающая наличие единого репозитория для хранения файлов. Выполнение боль- шинства функций по управлению версиями осуществляется специальным сервером. Участник проекта (пользователь) перед началом работы посредством определённых команд получает нужную ему версию файлов. После внесения изменений, пользователь размещает новую версию в хранилище. При этом предыдущие версии не удаляются из центрального хранилища и к ним можно вернуться в любой момент. Сервер может сохранять не полную версию изменённых файлов, а производить так называемую дельта- компрессию — сохранять только изменения между последовательными версиями, что позволяет уменьшить объём хранимых данных.&lt;/p&gt;
