@@ -13,6 +13,19 @@
     </image>
     
     <item>
+      <title>Архитекртура и функционирование DNS</title>
+      <link>https://stifell.github.io/ru/publication/dns/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://stifell.github.io/ru/publication/dns/</guid>
+      <description>&lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;dns.pdf&#34;&gt;Доклад&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;presentation.pdf&#34;&gt;Презентация&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Телеграм бот на Python</title>
       <link>https://stifell.github.io/ru/project/tgbot/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>

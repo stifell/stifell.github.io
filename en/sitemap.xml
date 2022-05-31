@@ -246,25 +246,9 @@
       href="https://stifell.github.io/en/slides/example/"
     /></url>
   <url>
-    <loc>https://stifell.github.io/en/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/publication-type/1/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/publication-type/1/"
-    /></url>
+    <loc>https://stifell.github.io/en/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://stifell.github.io/en/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/publication/example/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/publication/example/"
-    /></url>
+    <loc>https://stifell.github.io/en/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://stifell.github.io/en/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
@@ -286,12 +270,4 @@
       href="https://stifell.github.io/en/publication/"
     /></url>
   <url>
-    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url></urlset>
+    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>

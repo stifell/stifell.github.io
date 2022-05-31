@@ -122,6 +122,10 @@
       href="https://stifell.github.io/ru/post/lastweek4/"
     /></url>
   <url>
+    <loc>https://stifell.github.io/ru/publication-type/4/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/ru/tag/dns/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://stifell.github.io/ru/project/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -130,6 +134,16 @@
       rel="alternate"
       hreflang="ru"
       href="https://stifell.github.io/ru/project/"
+    /></url>
+  <url>
+    <loc>https://stifell.github.io/ru/publication_types/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/publication_types/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/publication_types/"
     /></url>
   <url>
     <loc>https://stifell.github.io/ru/category/python/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -142,7 +156,19 @@
       href="https://stifell.github.io/ru/category/python/"
     /></url>
   <url>
+    <loc>https://stifell.github.io/ru/publication/dns/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://stifell.github.io/ru/tag/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://stifell.github.io/ru/publication/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://stifell.github.io/en/publication/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://stifell.github.io/ru/publication/"
+    /></url>
   <url>
     <loc>https://stifell.github.io/ru/project/tgbot/</loc><lastmod>2022-05-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
@@ -242,54 +268,4 @@
       rel="alternate"
       hreflang="ru"
       href="https://stifell.github.io/ru/slides/example/"
-    /></url>
-  <url>
-    <loc>https://stifell.github.io/ru/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/publication-type/1/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/publication-type/1/"
-    /></url>
-  <url>
-    <loc>https://stifell.github.io/ru/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/publication/example/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/publication/example/"
-    /></url>
-  <url>
-    <loc>https://stifell.github.io/ru/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/publication_types/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/publication_types/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /></url>
-  <url>
-    <loc>https://stifell.github.io/ru/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://stifell.github.io/en/publication/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://stifell.github.io/ru/publication/"
     /></url></urlset>
