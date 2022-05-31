@@ -7,7 +7,7 @@
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_huadb2fc21906c66a848c404c925d23ce3_23890_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://stifell.github.io/ru/project/</link>
     </image>
@@ -173,6 +173,21 @@
 &lt;br&gt;
 --------&lt;br&gt;
 Источник: https://habr.com/ru/post/442800/
+</description>
+    </item>
+    
+    <item>
+      <title>Ассемблер NASM</title>
+      <link>https://stifell.github.io/ru/project/as/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://stifell.github.io/ru/project/as/</guid>
+      <description>&lt;h2 id=&#34;аннотация&#34;&gt;Аннотация:&lt;/h2&gt;
+&lt;p&gt;Язык ассемблера (англ. assembly language) — машинно-ориентированный язык программирования низкого уровня. Представляет собой систему обозначений, используемую для представления в удобно читаемой форме программ, записанных в машинном коде.&lt;/p&gt;
+&lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;as.pdf&#34;&gt;Доклад&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;presentation.pdf&#34;&gt;Презентация&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

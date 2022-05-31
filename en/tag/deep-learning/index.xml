@@ -7,10 +7,23 @@
     <description>Deep Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://stifell.github.io/media/icon_hue3e8464a5670afc123b561c3a075aaa3_21660_512x512_fill_lanczos_center_3.png</url>
+      <url>https://stifell.github.io/media/icon_huadb2fc21906c66a848c404c925d23ce3_23890_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
       <link>https://stifell.github.io/en/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>DNS architecture and operation</title>
+      <link>https://stifell.github.io/en/publication/dns/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://stifell.github.io/en/publication/dns/</guid>
+      <description>&lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;dns.pdf&#34;&gt;Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;presentation.pdf&#34;&gt;Presentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Telegram bot python</title>
