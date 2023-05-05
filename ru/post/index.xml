@@ -5,38 +5,12 @@
     <link>https://stifell.github.io/ru/post/</link>
       <atom:link href="https://stifell.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Посты</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stifell.github.io/media/icon_hu9a980169d4666dde4283d46a4bc9356b_136397_512x512_fill_lanczos_center_3.png</url>
       <title>Посты</title>
       <link>https://stifell.github.io/ru/post/</link>
     </image>
-    
-    <item>
-      <title>Моя прошлая неделя</title>
-      <link>https://stifell.github.io/ru/post/lastweek5/</link>
-      <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/ru/post/lastweek5/</guid>
-      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Начало недели выдалось легким, поэтому в понедельник я занимался спортом и читал книгу.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Вторник и среда в целом ничем не отличались, разве что я начал делать лабораторные работы по операционным системам.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Пятница — тяжелый день. Первые две пары я провел за компьютером, изучая C++. C 15:00 до 19:20 учил английский язык.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В субботу с 12:00 до 14:50 по компьютерному практику были пары. Мы сделали лабораторную работу на Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В воскресенье полностью отдохнул морально и физически.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
     
     <item>
       <title>Статический генератор сайтов hugo</title>
@@ -87,29 +61,6 @@
     </item>
     
     <item>
-      <title>Моя прошлая неделя</title>
-      <link>https://stifell.github.io/ru/post/lastweek4/</link>
-      <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/ru/post/lastweek4/</guid>
-      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Дни с понедельника по четверг прошли легко, так как пар было мало, а вот лабораторных работ по ОС было много, поэтому начал делать, не поленился.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В пятницу я провел первые две пары за компьютером, изучая C++. С 15:00 до 19:20 я занимался английским языком.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В субботу я ходил на занятия по ИТ, делал лабораторные тесты на Arduino. После этого я поехал на соревнования по бегу среди московских вузов.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В воскресенье я полностью отдохнул морально и физически.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Языки научного программирования</title>
       <link>https://stifell.github.io/ru/post/programming/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
@@ -145,29 +96,6 @@ P(x,y) = x^2 - 3xy + 5y^2 - 7y + 3&lt;/p&gt;
     </item>
     
     <item>
-      <title>Моя прошлая неделя</title>
-      <link>https://stifell.github.io/ru/post/lastweek3/</link>
-      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://stifell.github.io/ru/post/lastweek3/</guid>
-      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Дни с понедельника по четверг были легкими, так как пар было немного.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В пятницу я провел первые две пары за компьютером, изучая C++. С 15:00 до 19:20 я занимался английским языком.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Я не ходил на пары в субботу. На стадионе РУДН прошли соревнования по бегу, там занял 2 место, поздравьте меня.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В воскресенье полностью отдохнул морально и физически.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Презентация</title>
       <link>https://stifell.github.io/ru/post/presentation/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
@@ -190,29 +118,6 @@ P(x,y) = x^2 - 3xy + 5y^2 - 7y + 3&lt;/p&gt;
 &lt;p&gt;В школе мы часто делали презентации и большинство из них структурно и композиционно выглядели вот так.&lt;/p&gt;
 &lt;p&gt;К сожалению такие слайды абсолютно не дышат, не имеют свободного пространства, то есть воздуха. А воздух — это самое важное на слайде, без него макет тонет в текстовой и визуальной информации. Задача дизайнера — расставить объекты на слайде таким образом, чтобы они сосуществовали, а не вытесняли друг друга. В белом пространстве (в воздухе) нет ничего плохого. Наоборот, чем его больше, тем проще и минималистичнее смотрится слайд, а значит и понятнее для читателя.&lt;/p&gt;
 &lt;p&gt;Смысл любого дизайна — это донесение информации в четкой и понятной форме, логичное расположение элементов на слайде, создание аккуратной и четкой структуры. А уже в последнюю очередь это стиль, красота и визуальное оформление.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Моя прошлая неделя</title>
-      <link>https://stifell.github.io/ru/post/lastweek2/</link>
-      <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/ru/post/lastweek2/</guid>
-      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю:&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Я ездил домой с понедельника по среду, так как были праздники.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В пятницу первые две пары я провел за компьютером, изучая C++. С 15:00 до 19:20 занимался английским.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В субботу с 12:00 до 14:50 были пары на компьютерном семинаре. Мы сделали лабораторную работу на Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В воскресенье я полностью отдохнул морально и физически.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
@@ -567,35 +472,6 @@ ___Пример___
 &lt;br&gt;
 &amp;mdash;&amp;mdash;&amp;ndash;&lt;br&gt;
 Источник: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Моя прошлая неделя</title>
-      <link>https://stifell.github.io/ru/post/lastweek1/</link>
-      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://stifell.github.io/ru/post/lastweek1/</guid>
-      <description>&lt;h2 id=&#34;как-я-провел-прошлую-неделю&#34;&gt;Как я провел прошлую неделю&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Начало недели выдалось легким, поэтому в понедельник я занимался спортом и читал книгу.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Вторник и среда в целом ничем не отличались, разве что я начал делать лабораторные работы по операционным системам.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В четверг я пошел в университет на первые две пары. Задавал интересующие вопросы по лабораторной.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Пятница — тяжелый день. Первые две пары я провел за компьютером, изучая C++. По плану должен быть английский с 15:00 до 19:20, но было только онлайн-мероприятие.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В субботу с 12:00 до 14:50 по компьютерному практику были пары. Мы сделали лабораторную работу на Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;В воскресенье полностью отдохнул морально и физически.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     

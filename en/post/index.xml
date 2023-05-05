@@ -5,39 +5,12 @@
     <link>https://stifell.github.io/en/post/</link>
       <atom:link href="https://stifell.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:01 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stifell.github.io/media/icon_hu9a980169d4666dde4283d46a4bc9356b_136397_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://stifell.github.io/en/post/</link>
     </image>
-    
-    <item>
-      <title>My last week</title>
-      <link>https://stifell.github.io/en/post/lastweek5/</link>
-      <pubDate>Mon, 30 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/en/post/lastweek5/</guid>
-      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
-&lt;h2 id=&#34;how-i-spent-the-last-week&#34;&gt;How I spent the last week&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;The beginning of the week turned out to be easy, so on Monday I went in for sports and read a book.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tuesday and Wednesday were generally no different, except that I started doing labs on operating systems.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Friday is a hard day. I spent the first two classes at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Saturday from 12:00 to 14:50 there were couples for computer practice. We have done lab work on Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday, I completely rested mentally and physically.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
     
     <item>
       <title>Hugo static site generator</title>
@@ -88,30 +61,6 @@ Building the binaries is an easy task for an experienced &lt;code&gt;go&lt;/code
     </item>
     
     <item>
-      <title>My last week</title>
-      <link>https://stifell.github.io/en/post/lastweek4/</link>
-      <pubDate>Thu, 26 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/en/post/lastweek4/</guid>
-      <description>&lt;h1 id=&#34;article&#34;&gt;Article&lt;/h1&gt;
-&lt;p&gt;How I spent last week:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;The days from Monday to Thursday were easy, as there were few pairs, but there were a lot of laboratory tests on the OS, so I started doing, I didn&amp;rsquo;t get lazy.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Friday, I spent the first two pairs at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I went to IT classes on Saturday, did lab tests on Arduino. After that, I went to a running competition between Moscow universities.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday I completely rested mentally and physically.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Scientific programming language</title>
       <link>https://stifell.github.io/en/post/programming/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
@@ -148,30 +97,6 @@ Mathematical optimization&lt;/p&gt;
     </item>
     
     <item>
-      <title>My last week</title>
-      <link>https://stifell.github.io/en/post/lastweek3/</link>
-      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://stifell.github.io/en/post/lastweek3/</guid>
-      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
-&lt;p&gt;How I spent last week:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;The days from Monday to Thursday were easy, as there were not many couples.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Friday, I spent the first two pairs at the computer, learning C++. From 15:00 to 19:20 I studied English.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I didn&amp;rsquo;t go to couples on Saturday. There were running competitions at the RUDN Stadium. I took 2nd place, congratulate me.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday I completely rested mentally and physically.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Presentation</title>
       <link>https://stifell.github.io/en/post/presentation/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
@@ -195,30 +120,6 @@ Mathematical optimization&lt;/p&gt;
 &lt;p&gt;At school we often made presentations and most of them structurally and compositionally looked like this.&lt;/p&gt;
 &lt;p&gt;Unfortunately, such slides absolutely do not breathe, do not have free space, that is, air. And air is the most important thing on the slide, without it, the layout is drowning in text and visual information. The designer&amp;rsquo;s task is to arrange the objects on the slide in such a way that they coexist, and not displace each other. In white space (in the air) there&amp;rsquo;s nothing wrong. On the contrary, the more of it, the simpler and more minimalistic the slide looks, and therefore clearer for the reader.&lt;/p&gt;
 &lt;p&gt;The meaning of any design is to convey information in a clear and understandable form, the logical arrangement of elements on the slide, the creation of a neat and clear structure. And last of all, this is style, beauty and visual design.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My last week</title>
-      <link>https://stifell.github.io/en/post/lastweek2/</link>
-      <pubDate>Sat, 14 May 2022 00:00:01 +0000</pubDate>
-      <guid>https://stifell.github.io/en/post/lastweek2/</guid>
-      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
-&lt;p&gt;How I spent last week:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;I went home from Monday to Wednesday, as there were holidays.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Friday, I spent the first two pairs at the computer, studying C++. From 15:00 to 19:20 I studied English&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples at a computer seminar. We have done laboratory work on Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday I had a full rest mentally and physically&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
@@ -574,36 +475,6 @@ When using Markdown, you do not need to perform such actions. It allows you to u
 &lt;br&gt;
 &amp;mdash;&amp;mdash;&amp;ndash;&lt;br&gt;
 source: &lt;a href=&#34;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gist.github.com/Jekins/2bf2d0638163f1294637#file-markdown-docs-md&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My last week</title>
-      <link>https://stifell.github.io/en/post/lastweek1/</link>
-      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://stifell.github.io/en/post/lastweek1/</guid>
-      <description>&lt;h2 id=&#34;article&#34;&gt;Article&lt;/h2&gt;
-&lt;p&gt;How I spent last week:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;The beginning of the week turned out to be easy, so on Monday I played sports and read a book.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tuesday and Wednesday were no different in general, except that I started doing laboratory work on operating systems.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Thursday I went to university for the first two pairs. Asked interesting questions about the laboratory.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Friday is a hard day. I spent the first two pairs at the computer, studying C++. According to the plan, there should be English from 15:00 to 19:20, but there was only an online event.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Saturday, from 12:00 to 14:50, there were couples on a computer workshop. We did laboratory work on Arduino.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;On Sunday, completely mentally and physically rested.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
